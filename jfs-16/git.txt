@@ -1,0 +1,115 @@
+VCS Version Control System?
+	CVS - SVN -GIT
+Problems without VCS?
+problem 1:
+	Code in local machine,if system got crashed, we will lose code.
+problem 2:
+	If two persons working on same file at a time, very difficult to merge.
+problem 3:
+	If we are creating files like versions like v1,v2,v3...etc ,it is very
+	difficult to maintain.
+==
+What is the version Control System?
+	We can track the changes that happeb  within the directories of files
+==
+VCS Goals
+	Allows developers to work simoultaneously  and collaberatively
+	Do not 
+	
+	==
+VCS Types
+centralized
+	client - server Model
+	Ex : CVS , SVN
+Distributed
+	Client - Local -Server [github] Model 
+	Working Directory --> Local Repository --> Remote Repository
+Ex: GIT, bitbucket
+==
+Central VCS
+	Central --> user1, user2, user3
+	cons:
+	If there is connection issues b/w local and remote , we can't go further.
+==
+Distributed VCS
+	Distributed1/Remote1 --> local1, local2, local3--> User1, User2, User3
+	Pros:
+		If there is a connecction issues we can work with local VCS.
+		Once connection will works , we can work on distributed/Remote1
+==
+What is GIT?
+Installed locally on the developer  machine
+Working Directory
+staging area
+Git Directory
+Installation
+//TODO
+Work with GIT
+	ClI
+	GUI
+	VSCODE
+	ECLIPSE
+Working with GIT
+	Create Local Git Repository
+	Convert Local Directory as Local Git Repository
+
+difference between git and github
+	Git is a local repo and Github is a central Repo
+Diff b/w pull and fetch
+-
+git bash here
+git init
+	to initialize the git
+	git folder will be created in current directory
+create the new file readme .txt file
+Working area --> Staging area --> Local Repo
+git status
+		to check the untracked files
+		
+git add
+	To move untrack files WA to SA
+git commit -m "comments"
+To commit the changes fron SA to GR
+git log
+Shows the logs
+git revert id
+To go previous version
+git reset id
+--
+Login into github , create repository
+git config - global user.name "user1"
+git config - global user.email user@mail.comments
+
+git remote add origin https://github.com/user1/gitdemo.git
+git push -u origin master
+it removes readme.txt to github
+--
+Add some lines in readme.txt
+git status
+git add readme.txt
+git commit m "comments"
+--
+get the changes from the github
+git bash here
+git clone https://github.com/user1/gitdemo
+--
+Branches
+
+Working with GIT GUI
+	right click on directory
+GIT GUI here
+Rescan 
+	Scans the repository, shows the modified and changed files into un-stage area
+Staged changed
+	move files from un-stage to stage
+Sign Off
+commit	
+	commit to local repository
+push
+	Local/GIT to Remote/Github
+Different b/w Directory and Repository 
+Folder
+Before Convert Local Directory as Local Git Repository
+Repository
+After Convert Local Directory as local git Repository.
+	
