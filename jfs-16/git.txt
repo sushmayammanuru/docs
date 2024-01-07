@@ -2,7 +2,7 @@ VCS Version Control System?
 	CVS - SVN -GIT
 Problems without VCS?
 problem 1:
-	Code in local machine,if system got crashed, we will lose code.
+	Code in local machine,if system got crashed, we will lose our code.
 problem 2:
 	If two persons working on same file at a time, very difficult to merge.
 problem 3:
@@ -10,14 +10,14 @@ problem 3:
 	difficult to maintain.
 ==
 What is the version Control System?
-	We can track the changes that happeb  within the directories of files
+	We can track the changes that happen  within the directories of files
 ==
-VCS Goals
+VCS Goals :
 	Allows developers to work simoultaneously  and collaberatively
-	Do not 
-	
+	Do not overwrite
+	Maintain History of  Every changes	
 	==
-VCS Types
+VCS Types :
 centralized
 	client - server Model
 	Ex : CVS , SVN
@@ -28,13 +28,13 @@ Ex: GIT, bitbucket
 ==
 Central VCS
 	Central --> user1, user2, user3
-	cons:
+	cons:(disAdv)
 	If there is connection issues b/w local and remote , we can't go further.
 ==
 Distributed VCS
 	Distributed1/Remote1 --> local1, local2, local3--> User1, User2, User3
-	Pros:
-		If there is a connecction issues we can work with local VCS.
+	Pros:(Adv)
+		If there is a connection issues we can work with local VCS.
 		Once connection will works , we can work on distributed/Remote1
 ==
 What is GIT?
