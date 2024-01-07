@@ -1,0 +1,79 @@
+What is the use of table element?
+	we can arrange the data into rows and columns.
+	It consists of cells inside rows and columns.
+--
+What is table rows?
+	Each table row starts with <tr> and ends with</tr> tag.tr stands for
+	table row.
+	We can make rows,just make sure that the number of cells are the same
+	in each row.
+--
+What is table cell?
+	Each table cell starts with<td> and ends with </td>tag,td stands for
+	table data.
+	Everything between <td> and </td> are the content of the table cell.
+	--
+	What is table headers?
+		If we want to make cells to be headers , in those cases <th> tag has been
+		used instead of data.
+		By default ,the text in <th> tag  are centered and bold ,but we can change
+		by using css.
+		--
+		How to add a border for tables?
+			To add a border ,use CSS property on table ,th, and td element.
+			When you want to add  border to a table ,you can add border around each 
+			table cell.
+Example:
+	table,th,td{
+				border: 1px solid black
+			}
+		--
+What is collapsed table border?
+			To avoid having double borders, then use the border -collapse property.
+			This will make the borders collapsed into a single border.
+Example:	
+			table,th,td{
+			border-collapse: collapse;
+			}
+What style table property?
+		if you set a background color of each cell,then give a border a color.
+		Which is attractive of an invisible border.
+Example:
+		th,td {
+			background-color: #96D4D4;
+		}
+==
+Round table borders?
+	To get the round borders ,use the border-radius property.
+	THe border radius property used to get rounder corners of a border.
+	you can skip the table border by leaving out of the table from the css selector.
+	Example:
+		th, td {
+			border-radius: 5px;
+		}
+	==
+HTML table sizes
+	html tables can have different sizes for each column,row and an entire
+	table.
+	Use the style attribute to specify the size of a column ,row and a table.
+--
+HTML table width
+	To change the width of a table ,add the style attribute with width to add
+	table element.
+		
+Example:
+		<table style="width: 50%">
+		</table>
+--
+HTML table column width
+	 To  set the size of a specific column,add style attribute on <th> or <td>.
+Example:
+	<th style="width: 30%"></th>
+HTML table Row Height
+	To set the height of a specific row and add the style attribute on a table row
+element.		
+Example:
+	<tr style="height:50px">
+		</tr>
+--
+HTML table headers

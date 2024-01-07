@@ -1,0 +1,97 @@
+What are data Types?
+	Javascript variables are whole different datatypes such as
+		1.undefined	`
+		2.null
+		3.number
+		4.bigint
+		5.string
+		6.boolean
+		7.arrays
+		8.objects
+		and many more
+
+number
+	range
+		[+(253-1) to (-253-1)]
+		9007199254740991 to -9007199254740991
+		syntax:
+			variable_type variable_name -number;
+		Example:
+			let n1 =v123456789;
+--
+bigint 
+	Range
+		[]
+	syntax:
+	variable_type variable_value = number+n;
+	Example:
+		let n1 = 123456789012345678901234567890n;
+--
+String
+	syntax :
+		variable_type variable_value = number+n;
+	Example:
+		let n1 ="12345678901234567890123456789_no_length_limit";
+--
+What is the concept of datatypes?
+	in programming,datatypes are important concept.
+	to be able to operate on variables,it is  important to know something about
+	the type
+	without datatypes, it is difficult for the computer to solve.
+--
+Is javascript types are dynamic?
+	yes, javascript typs are dynamic this means that the same variable can be
+	used to whole different types.
+--
+What are javascript Strings?
+	A string or a text string is a series of charecters can be written within
+	single or double quotes.
+	if you want the text in single quote, use double quotes.
+	if you want the text in double quotes,use single quotes.
+--
+What are javascript Numbers?
+	javascript has only one type numbers.
+	numbers can be written with or without decimals.
+--
+What are javascript Booleans?
+    Booleans can only have two values : true or false.
+	Booleans are often used conditional testing.
+---
+What are javascript arrays?
+	 javascript arrays are written in square brackets and the array items are
+	 separated with comma.
+	 Arrays are started with index zero, it means the first item is[0].
+--
+What are javascript objects?
+	javascript objects are  written in curly braces.
+	Properties are written as name : value pairs and separated by comma.
+--
+What is typeof operator?
+	you can use  the javascript typeof operator to find the type of a javascript
+	variables.
+	The typeof operator returns the type of a variable or an expression.
+--
+What are empty values?
+	An empty value has nothing to do with undefined.
+	An empty string has both legal value and a type.
+--
+What is undefined?
+	undefined is a special value and special type of its own.
+	If a variable is declared, but not defined/assigned,
+	then its value is undefined and its datatype is also undefined.
+	undefined is a default/initial value for undefined/unassigned variable.
+	undefined means "value is not defined/assigned".
+Syntax:
+	variable type variable name;
+Example:
+	let firstName;
+--
+what is null ?
+null is a special value and its datatype is object.
+null means "not a reference to any value".
+null means "empty" or "unknown" value.
+	Syntax:
+		variable type variable name =null;
+	Example:
+		let firstName = null;
+		

@@ -1,0 +1,62 @@
+how to convert array to string?
+	toString() method convert an array to string of comma separated array.
+	values.
+	let employee = ["ammu","chinna","sumanth","Ravi"];
+	let employees = employees.toString();
+--
+how to convert array to string with specific separator
+	The join() method also join all array elements into a string
+	It behaves just like toString(), but in addition  you can specify the
+	separator.
+	let employees = ["ammu","chinna","sumanth","Ravi"];
+	let employees = employees.join(" |");
+	
+What is pop?
+	The pop method removes the last element from an array.
+	let employees = ["Sudha","Sushma","Suneel","pavan"];
+	employees.pop();
+--
+What is push ()?
+	The push () method adds a new element to an array at the last or end.
+	let employees = ["Sudha","Sushma","Suneel","pavan"];
+	employees.push("charan");
+--
+What is shift()?
+	The shift() method removes the fist element and "shifts" all other 
+	elements to a lower index.
+	let employees =["Sudha","Sushma","Suneel","pavan"];
+	employees.shift();
+--
+What is unshift()?
+	The unshift() method adds a new element to an array at the beginning and
+	"unshifts" the older elements to a higher index.
+	const employees = ["ammu","chinna","sumanth","Ravi"];
+	let employees = employees.unshift("ravi");
+--
+how to find array length ?
+	The length property provides an easy way to append a new element to an
+	array.
+	const employees = ["ammu","chinna","sumanth","Ravi"];
+	console.log(employees.length);
+---
+how to delete element from array from a specified position?
+	we can delete an element from the specified position using delete() method.
+	delete method leaves an undefined hole in the array.
+what is splice method?
+	add/update/delete element/elements at any position.
+Syntax:
+	splice (n1, n2, element1,element2,.....elementn);
+	first parameter defines the position where you want to add
+	second parameter defines how many that you want to remove
+	the rest parameters defines new elements
+Example:
+	employee.splice(3,0,"ravi","raghu")
+==
+What is slice?
+	Creates a new array from existing array.
+Syntax:
+	slice(start-index-included,end-index-excluded);
+Example:
+ slice(2,4);
+ 
+ 

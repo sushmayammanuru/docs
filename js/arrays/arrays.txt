@@ -1,0 +1,81 @@
+What is an array?
+	An array is a special variable, which can hold more than one value.
+Syntax:
+	varType arrayName = [];
+	varType arrayName = ["value1", "value2, "value3"];
+Example :
+	let employees = [];
+	let employees = ["Azhar","Durga","Sushma","salma"];
+	--
+Why use Arrays?
+	If you want to group similar items , we use arrays.
+Example:
+	let employeeArray = ["sushma","sudha"];
+
+How to create array with empty values?
+	let employees = [];
+	let employees = new Array();
+The two examples above do exactly the same.
+	There is no need to use new Array();
+	For simplicity,readability and excution speed,
+	use the array literal method.
+--
+how to create with array with values?
+	let employeesArray = ["sudha","suneel"];
+	let employeesArray = new Array ("Sudha","Sunnel");
+--
+How create an Array with new keyword?
+	let employeesArray = new Array();
+	let employeesArray = new Array ("Sudha","Sunnel");
+--
+
+How to create an array with initial index?
+	const employees = new array(4);
+	usecase
+	If you want to  create an array with initial index and
+	empty values[undefined].
+	
+how to get the values from array?
+		By using index
+		let employeesArray = ["Sushma","Sudha","Sunnel"];
+	Syntax:
+		varType varName = arrayName[index];
+	Example:
+		let emp1 = employeesArray[0];
+		let emp1 = employeesArray[1];
+	
+how to update the value into array?
+	by using the index
+	let employeeArray = ["sunitha","bhavani","rajini"];
+	Syntax:
+		arrayName[index] = values;
+	Example:
+		employeeArray[0] = "ammu";
+		employeeArray[1] = "ravi";
+--
+how to find the  array length?
+	by using the length property , we can  find the length.
+	Example:
+	let employeeArray = ["sunitha","bhavani","rajini"];
+	let length = employeeArray.length;
+--
+How to acces the first element?
+	by using index 0.
+	Syntax:
+	let firstElement = arrayName[0];
+	Example:
+	let emp1 = employeeArray[0];
+--
+how to access last element?
+ by using (length - 1)
+ Syntax;
+	let lastElement = arrayName[length - 1];
+Example:
+	empn = employeeArray[length - 1];
+--
+How to access/iterate  all elements from array?
+	by using for loops
+	example:
+	//todo refer the loops topics
+what is the difference between arrays and objects?
+

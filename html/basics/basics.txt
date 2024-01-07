@@ -1,0 +1,23 @@
+How to view HTML source code?
+	Right-click on HTML page.
+	Select "view page Source"(in chrome)
+	Select "view source"(in Edge)
+	or similar in other browsers.
+	This will open a window containing the html source code of the page.
+- -
+How to inspect an HTML element?
+	Right click on an element (or a blank area)
+	Choose "Inspect" or "Inspect Element" to see what element are made up of.
+	you can also edit the html or CSS on-the-fly in the elements or styles panel
+	that opens.
+	whatever the changes that you  did in inspect mode those will not
+	reflect in source code,changes are temporary only.
+- -
+What will happen when you open html page from the browsers?
+	Browser will read entire html page at a time
+	it will interpret the html document and
+	converted into user understandable format.
+- -
+	if any error in html code in interpretation phase,browser wont step the 
+	interpretation that particular  line,it will print error in console then
+	it will interpret next line.

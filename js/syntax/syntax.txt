@@ -1,0 +1,58 @@
+Javascript syntax :
+	It is the set of rules and regulations , how javascript programs are
+	constructed.
+--
+What are javascript values ?
+The javascript syntax defines two types of values:
+	1.fixed values
+	2.variable values
+		fixed values are called literals.
+		variable values are called variables.
+--
+What are rules for javascript Literals?
+	The two important rules for fixed literals are
+		1. numbers are written with or without decimals.
+		Example:
+		1000
+		10.50
+	2.Strings  text written within double or single quotes.
+		Example:
+		"john"
+		'john'
+--
+What are javascript variables?
+	 In a programming  language, variables are used to store data values.
+	 Javascript uses keywords var, let and const to declare variables.
+	 An equal sign (=) is used to assign values to variables.
+		Example:
+		let x;
+		x = 6;
+--
+What are javascript Operators?
+there are two types of operators.
+	Arithmatic operators
+	Assignment operators.
+javascript uses  arithmetic operators ( + - * /) to compute values.
+javascript uses an assignment operator(=) to assign values to variables.
+--
+What is javascript Expressions?
+	AN Expression is a combination of values,variables and operators,which computes
+	the computation is called evaluation.
+	Expressions can also contain variable values.
+	The values can be various types , such as numbers and strings.
+	Example:
+		" John"+" " + "doe";
+		It evaluates to "JohnDoe"
+		var n1 = 10 + 12; //22
+		var n2 = "10" + "12"; // 1012
+--
+What are javascript keywords?
+	Javascript keywords [63] are used to identify actions to be performed.
+	THe let keyword tells  the browser to create variables.
+	The var keyword also tells the browser to create variables.4
+	By using var or let keywords, the result will be same .
+--
+What are javascript comments?
+	 Not all javascript statements are excuted.
+	 Code after double slashes // or between /* and */ is treated as comment.
+	 comments are ignored , and will not be excuted.

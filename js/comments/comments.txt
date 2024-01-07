@@ -1,0 +1,10 @@
+what is use of comments in js?
+	JS comments are not excuted by the browser, comments are ignored by the 
+	browser.
+How many types of comments are on JS?
+	there are two types of comments
+		single line comments
+		//
+		multiline comments
+		/*
+		*/

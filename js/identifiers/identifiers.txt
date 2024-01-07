@@ -1,0 +1,13 @@
+what are identifiers?
+	All javascript variable-names, method-names, class-names must be identified
+	with unique-names.
+	These unique-names are identifiers.
+--
+what are the rules for declaring identifiers?
+	Contain digits (0-9), letters (a-z,A-z), underscore(_) and dollars($) signs.
+	can't start with digit.
+	can start with special charecter_,$.
+	case sensitive.
+	no length limit.
+	reserved words are not allowed.
+	

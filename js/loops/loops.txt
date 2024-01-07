@@ -1,0 +1,66 @@
+why do we need loops?
+	To excute the logic repeatedly.
+What are the types of loops?
+	for	:
+		loops through a block of code a number of times.
+	for/in :
+		loops through the properties of an object.
+	for/of :
+		loops through the values of an array.
+	while :
+		loops through a block of code if the specified condition is true.
+		If the condition is true then only excutes  the block of code.
+	do/while :
+		loops through a block of code if the specified condition is true
+		it will excutes the block of code at least once and checks the
+		condition.
+==
+For:
+	Syntax:
+	for (initialization; condition; increment/decrement){
+	//write your code here...., may be single line or 100 lines
+	//getEmployee();
+	//It will excutes multiple lines based upon the condition.
+	}
+	Example:
+	for(let i =0;i<10;i++){
+		console.log("This is my logic whicj=h i want to excute 10times"+i");
+	}
+	const employees = ["steven","alexa","lex"];
+	for(let i =0 ;i<employees.length;i++){
+	console.log(employess[i]);
+	}
+	//array index-5 length-6;
+	//index-length-1;
+==
+What is for In?
+	for In statement loops through the properties of an object.
+Syntax :
+	for (property in object){
+		// code block to be excuted
+	}
+Example:
+	function forLoop4(){
+	const employee = {empId : "101",firstName : "Sushma",lastName :"yammanuru" }
+	let text = "";
+	for (let property in employee){
+		text += employee[property];"<br>";
+	}
+	document.getElementById("employee").inner HTML = text;
+	}
+--
+What is forOf?
+	forOf statements loops through the values of an iterable array.
+Syntax:
+	for(values of iterable){
+		//block of code to be excuted
+	}
+Example:
+	function forOf(){
+		const employees =["sudha","pavan",sushma];
+		let text = "";
+		for(let employee of employees){
+			text += employee + "<br>";
+		}
+		document.getElementById("employee").inner HTML = text;
+	}

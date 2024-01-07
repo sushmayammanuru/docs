@@ -1,0 +1,24 @@
+Topic			covered		practice	interview
+BOM				yes			yes			yes
+DOM				yes			yes			yes
+Home			yes		 	yes     	yes
+Introduction	yes						
+output			yes			yes			yes
+statements		yes			yes			yes
+syntax			yes						
+comments		yes			yes			
+variables		yes						
+let				yes						
+const			yes						
+operators		yes
+arithematic		yes
+datatypes		yes
+functions		yes
+conditions		yes			yes			yes
+loops
+arrays			yes			yes			yes
+==
+objects
+if else			yes			
+switch			yes			
+debugging

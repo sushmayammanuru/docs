@@ -1,0 +1,59 @@
+HTML Quotations ana Citations Elements
+	In this we are having some elements like:
+	<blockquote>-element
+	<q>-element
+	<abbr>-element
+	<address>-element
+	<cite>-element
+	<bdo>-element
+HTML<blockquote> for quotations
+	The <blockquote> element defines a section is quoted from another source
+	Browser usually intend <blockquote> element.
+Example:
+	<blockquote cite="https://www.worldwildlife.org/who/index.html">
+	WWL has been protecting the future of nature.The world leading
+	conversation organisation.
+	</blockquote>
+HTML<q> for short quotations
+	the <q> element defines a short quotations,browser normally insert
+	quotations marks around the quotations.
+Example:
+	<p>the text is about <q>quotations mark</q></p>
+HTML <abbr> for abbrevations
+	The <abbr> element  defines an abbrevation like "HTML" "CSS" "ATM",
+	Making abbrevations can give a useful information to the browser
+	translation systems and search engines.
+	Use title attribute  to show the description for the abbrevation,when you
+	mouse hover the element.
+Example:
+	<p>The<abbr titke="world health organisation">WHO</abbr>was founded in 1948</p>
+--
+
+
+
+
+<address>
+	 The <address> tag defines the contact information for an author of an
+	 article or document.
+	 THe contact information can be an email  address ,URL,physical address,
+	 phone number,etc
+	 The text in the <address>  element usually in italic ,and the browser will
+	 always add a line break before and after the <address>element
+Example:
+	<address>
+		written by john<br>
+		visit us at<br>
+		disneyland<br>
+		USA
+	</address>
+--
+<cite>
+	The <cite> element defines the title of an creative work like :a bpook,a 
+	poem,a song...etc
+	The text in the <cite> element will be in italic.
+Example:
+	<p><cite>the scream</cite>by edward munch</p>
+--
+HTML <bdo> for Bi-Directional Override
+	The <bdo> element is used to override the current text direction.
+Example<p><bdo dir="rtl">the text is in right to left</bdo></p>

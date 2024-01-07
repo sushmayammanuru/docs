@@ -1,0 +1,29 @@
+What is style attribute?
+	Setting the style of a html element can be done by using style attribute.
+Syntax:
+<tagname style="property:value;">
+==
+How to apply Background color to an element?
+	background-color property defines the background clor for an html element.
+Example:
+<h1 style-"background-color:red;">this is a heading</h1>
+==
+How to apply text-color to an element?
+	color property defines the text color for an html element.
+Example
+	<h1 style="color:red;">This is a heading</h1>	--
+	How to change font family to an element?
+		font family property defines the font to be used for an html element.
+	Example:
+		<p style="font-family:italic;">This is a heading</p>
+--
+how to change a text size?
+		font-size property defines the text size of an html element.
+Example:
+		<p style="font-size"10px;">This is a para</p>
+--
+Text alignment
+	The text-align property defines the horizantal alignment for an html element.
+Example:
+	<p style="text-align:right;">Right side paragraph</p>
+==

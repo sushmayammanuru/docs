@@ -1,0 +1,41 @@
+what is BOM?
+	The Browser object model (BOM) allows javascript to "talk to" the browser.
+	there are no official standards for the browser object model(BOM).
+	since modern browsers have implemented (almost) the name methods and properties.
+	for javascript interactivity,it is often reffered to as methods and
+	properties of the BOM.
+--
+what is Window Object?
+	The window object is supported by all browsers.It represents the browser's
+	window.
+	All global javascript objects,functions,and variables automatically become
+	members of  the window object.
+	Global variables are properties of the window object.
+	global functions are methods of the window object.
+	All Objects are childs of the window object.
+--
+Even the document object (of the HTML DOM)is a property of the window object;
+
+window.document.getElementById(Header);
+is the same as:
+document.getElementById("Header");
+window size
+Two properties can be used to determine the size of the browser window.
+
+both properties return the size in pixels.
+
+window.innerHeight - the inner height of the browser window (in pixels)
+window.innerwidth - the innerwidth of the browser window(in pixels)
+the browser window (the browser viewport)  is not including toolbars And
+scrollbars
+Example
+let w= window.innerwidth;
+let h = window.innerheight;
+other window methods
+some other methods
+
+window.open() - open a window
+window.close() - close the current window
+window.moveto() - move the current window
+window.resizeto() - resize the current window
+ 

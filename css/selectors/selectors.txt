@@ -1,0 +1,103 @@
+What are selectors?
+	Selectors are used to select the html element you want to style.
+--
+How many types of selectors are there in css?
+there are five types of selectors
+	Simple selectors
+	Combinator selectors
+	pseudo selectors
+	pseudo element selectors
+	Attribute selectors
+--
+how many types of simple selectors are there in css?
+	Element
+	Id
+	Class
+--
+What is an element selector?
+	the  element selector  selects the html element based on the element name.
+Syntax:
+	element{
+		property : value;
+		property : value;
+		etc...
+		}
+Example:
+	p {
+		text-align:center;
+		color:blue;
+		font-size: 24px;
+			}
+	Here all <p> elements on the page will be centered aligned,with a blue text color.
+==
+What is an id selector>
+	the id selector uses the id attribute of an html element to select a 
+	specific element.
+	The id of an element is unique with in a page ,so that the id selector is
+	used to select one unique element!.
+	To select an element with a specific id, write a hash(#) character
+	followed by the id of the element.
+Syntax:
+	#id{
+		property:value:
+		property:value:
+		etc..
+		}
+Example:
+	#firstname{
+		text-align: center;
+		color:red;
+		}
+Note:An id name cannot start with a number
+==
+What is class selector?
+	The class selector selects html elements with the specific class attribute.
+	to select elements with a specific class write period(.)character.
+	followed by the class name.
+
+Syntax:
+.class-name{
+	property:value;
+	property:value;
+	etc..
+}
+Example:
+.center{
+	text-align:center;
+	color:red;
+}
+==
+What is universal selector?
+	universal selector(*)selects all html elements with in the application.
+Syntax:
+	*{
+		property:value;
+		property:value;
+
+		etc..
+	}
+Example:
+*{
+	text-align:center;
+	color:red;
+}
+==
+What is grouping selector?
+	The grouping selector will selects all the html elements with the same style
+	
+	h1{
+		text-align:center;
+		color:red;
+	}
+	h2{
+		text-align:center;
+		color:red;
+	}
+	p{
+		text-align:center;
+		color:red;
+	}
+	==
+	By writting program like above is long process,so by using grouping
+	selector  minimised
+	

@@ -1,0 +1,14 @@
+what is let ?
+	let keyword was introduced in ES6 (2015).
+	it is one of the variable type.
+	it can't be redeclared.
+	It must be declared before usage.
+	re-assignment is possible.
+	It has a blockScope.
+Why let is introduced in ES6 ?
+	 variable defined with var type can be re-declared.
+	 re-declaring the variable is wrong approch.
+	 to over come re declaration ,let keyword was introduced.
+FAQs
+What is the difference between ES5 and ES6?
+// todo separate topic.

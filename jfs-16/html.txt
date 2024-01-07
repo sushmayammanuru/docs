@@ -1,0 +1,29 @@
+Topic 					covered Practice	Interview
+Home					Yes		yes			yes
+Introduction			yes  	yes			yes
+Editors					yes		yes			yes
+Basics					yes		yes			yes
+Elements				yes		yes			yes
+Attributes				yes		yes			yes
+Headings				yes     yes
+Paragraphs				yes		yes
+styles					yes 	yes
+Formating				yes		yes
+Quotations				yes		yes	
+comments				yes		yes
+colors					yes		yes	
+links					yes		yes
+images					yes		yes
+Favicon					yes		yes	
+Page title			
+Tables					yes		yes
+Lists
+Blocksinline
+classes
+id
+Forms
+Form attributes
+Form Elements
+	input elements
+	input attributes
+	input form attributes

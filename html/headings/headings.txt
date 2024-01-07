@@ -1,0 +1,20 @@
+HTML headings
+	headings are titles or subtitles that you want to display on a webpage.
+	headings are defined with the<h1>to <h6> tag .
+	<h1> tag defines the most impotant heading and <h6> tag defines the least
+	impotant heading.
+Example
+	<h1>heading 1</h1>
+	<h2>heading 2</h2>
+	<h3>heading 3</h3>
+	<h4>heading 4</h4>
+	<h5>heading 5</h5>
+	<h6>heading 6</h6>
+--
+Bigger heading
+	Each html heading has default size.However you can specify the size of 
+	an heading by using style attribute,using the css font-size prorperty:
+Example:
+<h1 style="font-size=80px;">This is a heading</h1>
+you can use style attribute to change the font size  of an heading.
+--

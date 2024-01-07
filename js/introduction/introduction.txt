@@ -1,0 +1,76 @@
+Can javascript change HTML content?
+	Yes,javascript can change HTML content by using the function
+	getElementById() and property innerHTML.
+--
+What is getElementById()?
+	It is a prefined function available in javascript.
+	By giving an id="id" , we can get an element from the html page javascript.
+--
+What is innerHTML?
+	It defines the content start tag and end tag of an element
+	Example:
+		document.getElementById("firstname").innerHTML="kumar'
+--
+can javascript change html attribute values?
+	yes javascript can change the html attribute value.
+Example:
+
+document.getElementById("myimage").src="bulboff";
+--
+can javascript change CSS styles?
+	yes,javascript can change the CSS styles.
+Example:
+	document.getElementById("p1").style.color = "green";
+--
+can javascript hide html elements?
+		yes, it can hide the elements by changing the display style as "none".
+		It can show hidden elements by changing the display style as"initial".
+	Example:
+	document.getElementById("p1").style.display="none";
+	Example:
+		document.getElementById("p2").style.display="initial";	--
+==
+What is the use of <script> tag?
+	In html ,javascript code is inserted between <script> and </script> tags.
+	you can place any number of scripts in an html document.
+	scripts can be placed in the <body> tag or <head> section or in both.
+==
+define inline javascript?
+	Writting the javascript code within the start tag is called inline 
+	javascript.
+Example:
+	<p id="first-name">my first-name is ravi</p>
+	<button on click='document.getElementById("first-name").innerHTML=
+	"my first-name is kumar"'>change the first name</button>
+--
+Define internal javascript?
+	Write a javascript code between the <script>and</script> tags,
+	is called as internal javascript.
+Example:
+<script>
+	function changeLastName(){
+	document.getElementById("last-name").innerHTML=
+	"my Last Name is chandra";
+	}
+</script>
+<p id="last-name">my last-name is surya</p>
+<button onclick="changeLastName();">change Last Name</button>
+--
+Define External javascript?
+	Scripts can also be placed  in external files,it always recomended.
+	To use an external script , put the name of the script file in the src
+	attribute of a <script>tag.
+	javascript files have extensions of .js
+	you can place an  external script reference in <head> or <body> as you like.
+	Example:
+		<script src="introduction.js"></script>
+--
+what are the Advantages of javascript?
+	 it separates html and javascript code.
+	 It makes html and javascript easier to read and maintain.
+	 Caches javascript files  can speed up the page loads.
+--
+FAQs
+What is difference between display:none and visibility : hidden?
+
+

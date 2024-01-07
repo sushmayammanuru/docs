@@ -1,0 +1,66 @@
+HTML Formatting elements
+	Formatting Elements were designed to display special text.
+	<b>-Bold Text
+	<strong>-Important text
+	<i>-italic text
+	<em>-Emphasized text
+	<mark>-Marked Text
+	<small>=Smaller Text
+	<del>-Deleted Text
+	<ins>-Inserted Text
+	<sub>-Subscripted Text
+	<sup>-Superscripted Text
+HTML <b> and <strong> Elements
+	the HTML <b> elements defines the bold text,without any extra importance.
+	Example
+		<p><b>This is a bold text</b></p>
+--
+	The HTML <strong>elements defines the text with strong importance.
+	the content inside is typically displayed in bold.
+Example:
+	<p><strong>This text is important!</strong></p>
+--
+The HTML <i> and <em> Elements
+	the html <i> element defines a part of text in an alternate voice or mood.
+	The content inside is typically displayed in italic.
+Example:
+<p><i>This text is in italic</i></p>
+--
+The html <em> element defines the text is emphasized.
+the content inside in the text is typically displayed in italic.
+Example:
+
+<p><em>this text is emphasized</em></p> 
+--
+The HTML <small> and <mark> Elements
+	The HTML <small> elements defines the smaller text.
+Example:
+	<p><small>this text is smaller</small></p>
+--
+The HTML <mark> element defines the text is marked or highlighted.
+Example:
+	<p>this is a <mark>Text</mark></p>
+--
+HTML <del> and <ins> Elements
+	The HTML <del> element defines the text has been deleted from the document,
+	and the browser will strike a line through deleted text.
+Example:
+			<p>this text is <del>deleted</del></p>
+==
+	 The HTML <ins> element defines the text has been inserted in the document,
+	 and the browser wil underline inserted text.
+	 Example"
+		<p>this text is <ins>inserted</ins></p>
+==
+HTML <sub> and <sup> element
+	The html <sub> element defines the subscripted text.the subscripted text
+	appears half of a character below the normal line.
+	sometimes it is a small font
+Example:
+	<p>this  text is <sub>subscripted</sub></p>
+==
+	THe HTML <sup>element defines the superscripted text .the superscripted text
+	appears half of a character above the normal line.
+	Example:
+	<p>this text is <sup>superscripted</sup></p>
+		

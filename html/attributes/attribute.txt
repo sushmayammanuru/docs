@@ -1,0 +1,88 @@
+HTML Attributes
+	Attributes provide the additional information about HTML elements
+	All html elements can have attributes.
+	Attributes are always specified in the start tag only.
+	Attributes usually come in name value pair like.
+	attribute name ="attribute value".
+	Example"
+	<student name="ravi fn="kumar"></student>
+	<employee name ="ravi"fn="ravi"ln="kumar"employee -id="101"></employee>
+	Attributes are two type :
+		Global attribute:Commonly used for all elements.
+			id,class,style and etc..
+		local attributes:Specificly used for some particular elements.
+			src,href,alt and etc..
+	--
+	href attribute
+		 the <a>tag defines a hyperlink .
+		 the href attribute specifies the url of the page.
+	Example"
+	<a href="https"//www.w3schools.com">Visit w3 schools</a>
+--
+src attribute
+	the <img>tag is used to combine an image in html page.
+	The src attribute specifies the path of the image to be displayed.
+Example:
+<img src="img_girl.jpg"width="500" height="600">
+--
+alt attribute
+	The alt attribute of an <img> tag specifies an alternate text for an image.
+	If the iamge for some reason cannot displayed.
+	This can be due to slow connection,or an error in the src attribute.
+Example:
+	<img src="img-girl.jpg" alt="girl with a jacket">
+--
+style attribute
+	The style attribute is used to add style to an elements,such as color,
+	font,size and more.
+Example:
+<p style="color:green;">this is a pink para</p>
+--
+lang attribute
+	you should always include the lang attribute inside the <html>tag,
+	to declare language to the webpage.
+	this is meant to assist search engines and browsers.
+Example
+	<html lang="te"></html>
+	country codes can also be added to the language code in the lang attribute.
+	Example:
+	<html lang="en-us"></html>
+--
+title attribute
+	The title attribute defines some extra information about an element.
+	Example:
+		<h1 title="i'm a header">The title attribute</h1>
+		<p title="This is a tooltip">
+			mouse over this paragraph ,to display the title attribute as a tooltip.
+			</p>
+--
+note:01
+	Always use lowercase attributes
+	The attributes can be written with uppercase or lowercase like title o
+	TITLE,using lowercase is better way.
+--
+note:02
+	Single or Double quotes.
+	Double quotes around the attributes are the most common in HTML.
+	but single quotes can also be used.
+Example:
+<p title='This is a title'>title with single quote</p>
+<p title="this is a "TITLE">title with doble quotes</p>
+--
+Note:03
+ When the attributes value itself contains double  Quotes than it is neccesary 
+ to use single
+Example
+ <p title='This is a title'>title with single quote</p>
+<p title="this is a "TITLE">title with doble quotes</p>
+--
+FAQs
+	HTML attributes
+	href attributes
+	src attribute
+	alt attribute
+	style attribute
+	lang attribute
+	title attribute
+	single or double quotes
+	

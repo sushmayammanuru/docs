@@ -1,0 +1,27 @@
+How to insert/add/link css with html?
+There are three ways to insert CSS with html.
+	1.inline css
+	2.internal css
+	3.external css
+--
+What is inline css?
+	Writting the css within the html element using style attribute is called
+	inline css.
+	Inline css is used to apply a unique style for a single element.
+	To use inline css ,add to style attribute relavant element.
+	The style attribute can contain any css property.
+--
+What is internal css?
+	Writting the css with in the style tag of html page is called internal css,
+	Internal css is used if one single html page has unique style.
+	Internal css is defined inside the <style>element.
+--
+What is external css?
+	Writting the css in .css file is called external css.
+	we can link css file with html file using link tag.
+	with an external style sheet,you can change the entire look of an website
+	by changing just one file.
+	--
+	What are multiple style sheet?
+	if some properties have been defined for the same selector  in different stylesheets
+	 the value from the 

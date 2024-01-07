@@ -1,0 +1,35 @@
+What is javascript program?
+javascript program is a computer program it is a list of instructions that will
+be excuted by a computer.
+In a programming language ,these programming instructions are called statements
+A javascript program is a list of programming statements
+--
+what are javascript statements?
+javascript statements are composed of values ,operators, expressions, keywords
+and comments.
+Most javascript programs contain many javascript statements.
+the statements are excuted one by one in the same order as written in the 
+program.
+javascript programs and statements are often called as javascript code.
+--
+
+what are semicolons;
+It is  used separate javascript statements
+you should add a semicolon at the end of each excutable statements.
+when separated by semicolon, multiple statements in line are allowed.
+--
+What is the use of javascript white space?
+javascript ignores the white spaces while excuting ,you can add white space   
+to read the script easily.
+Adding spaces around the operators is the good practice.
+--
+What are line length and line breaks?
+	programs are often like to avoid longer length than 80 characters.
+	so if the javascript code is not fit in one line ,then use line breaks to
+	break the line.
+	The best place to break a line after an operators.
+--
+What is the use javascript code blocks.
+Javascript statements can be grouped together in code block inside the
+curly braces.
+And also you can excute the statements together.

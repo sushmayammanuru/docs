@@ -1,0 +1,65 @@
+what are the html elements?
+	HTML elements are basic build blocks of html page.
+	Elements is defined by the start tag ,some content and end tag.
+	Elements is everything from start tag to end tag.
+	Syntax:
+		<tag name>some content goes here..<endtag>
+	Example:
+	<h1>this is a heading</h1>
+	<p>This is a para.</p>
+--
+What are nested elements?
+	HTML Elements can be nested,means that elements can contain other elements.
+	All html documents consists of nested html elements.
+	Example:
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Elements</title>
+		</head>
+		<body>
+			<h1>This is a heading</h1>
+			<p>This is a para</p>
+		
+		</body>
+	<footer>
+	</footer>
+	</html>
+Example expalined:
+	The <html> is the root element and it defines the whole html
+	document
+	It has start tag<html> and an end tag</html>
+	Then inside an <html>  element there is an <body>element
+	The body element defines the documents body.
+	It has a start tag <body> and an end tag</body>
+	Then inside a <body>element there are two other elements:<h1>and<p>
+	The <h1>element defines a heading.
+	It has a start tag <h1> and end tag</h1>
+	The <p>element defines a paragraph.
+	It has start tag <p> and an end tag</p>
+	The footer element defines the documents footer.
+	It has start tag<footer> and an end tag </footer>.
+--
+Never skip the end tag?
+	Some html elements will display correctly,even if you forget the end tag.
+	However,never miss end tag ,if you miss ,an unexpected results and errors
+	may occur
+--
+What are empty elements ?
+	HTML elements with no content are called empty elements.
+	The <br>tag defines a line break ,with an empty element without a closing
+	tag.
+	Example:
+		<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Empty html elements</title>
+			</head>
+			<body>
+				<p>This is a <br> paragraph with aline break</p>
+			</body>
+		</html>
+		--
+		HTML is not case sensitive
+			HTML tags are not case sensitive:<p>means same as<P>
+			

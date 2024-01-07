@@ -1,0 +1,64 @@
+How many ways we can include javascript with html?
+	3 ways:
+		Inline
+		Internal
+		Exaternal
+--
+Inline javascript?
+	Writing the javascript with in the start tag.
+	Example:
+	<p id="inline">Inline js</p>
+	<button type="button" onclick='document.getElementById("inline").innerHTML =
+	"this is a inline javascript"'>Inline</button>
+	--
+Internal javascript?
+	Writing the javascript with the html page in a script tag.
+	javascript code is inserted between the <script>and</script>tags.
+	we can place any number of scripts in html document.
+--
+External Javascript?
+	writing the javascript in external .js file
+	Advantage:
+	We can use the same javascript code in many different html pages.
+==
+script tag in <body> or <head>?
+	scripts can be placed in the <body> or in the<head> sections of
+	an html page,or in both.
+==
+script tag in<head> tag?
+	the script will be loaded and identified before body tag excution.
+	If we want to excute javascript code at the time of page load.
+	or at the time of body tag excution ,the link script tag in head tag.
+	It slowdowns the display speed,because script interpretation slows down
+	the display speed.
+--
+script tag in <body>tag start?
+	If we want to excute the javascript code at the time of the body tag
+	excution,then link script tag immediately after body start tag.
+	It slowdowns the display speed,because script  interpretation
+	slows down the display speed.
+script tag in <body> tag bottom?
+	If we want to excute the javascript code immediately before and end of the body tag
+	excution,the link script tag immediately before body end tag.
+	It improves the display speed,because script interpretation phse is happening
+	after the content load.
+--
+How to link javascript files with html files?
+	by using the  script tag and its src atteibute.
+	Example:
+	<script src="myscript.js"></script>
+	--
+	
+	What are the advantages of writing javascript in external files?
+		It separates teh html and javascript code.
+		It makes html and javascript easier to read and maintain .
+		We can reuse the javascript code into different html files.
+		cached javascript files can speed up  page load.
+ --	I need to ask ravi sir after one month.
+--
+How many javascript files ,we can include in html files?
+	you can include many files as you want there is no limitation
+	<script src="myScript1.js"></script>
+	<script src="myScript2.js"></script>
+FAQs
+1.what is the difference between inline,internal and external files?

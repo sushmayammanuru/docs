@@ -1,0 +1,123 @@
+What is <!DOCTYPE html>
+	It defines that this document is an HTML5 document.
+	It must be written in the top of the page.
+	we are giving information to the browser that this document is an html5
+	document.
+	Browser will interpret and excute the html document by following html5
+	standards.
+- -
+What is a tag?
+	A tag is a main building block of html.HTML has approx 100 tags.
+Syntax:
+	<start-tag-name></end-tag-name>
+- -
+What is <html>?
+	This is the root tag in html page.
+- -
+What is <head>?
+	It contains meta information about the page//TODO
+	The content which is written in this element will not be visible in the
+	web page.
+- - 
+What is <title>
+	It specifies a title for the html page.
+	It is shown in the browser's title bar or in the page's tab.
+- -
+What will be the page title,if you dont provide title tag in the head tag?
+	your file name is page title.
+- -
+What is <body>?
+	It defines the document's body.
+	It is a container for all visible contents.
+	The content that is written in this element only visible in the web page.
+	- -
+	What is <h1>to<h6>?
+It	defines a larger heading,here in this we are having from <h1>to<h6>.
+- -
+What is <p>?
+	This element defines a paragraph.
+- -
+What is an HTML element?
+	HTML element is defined by start tag,some content,end tag.
+	- -
+Syntax:
+		<tag name>some content here</tag-name>
+Example:	
+<h1> content here one</h1>
+<h6>content here six</h6>
+- -
+What are the empty elements?
+	some elements have no content.
+	these elements are called as empty elements.
+	empty elements have no end tag.
+	what are the tags that does not have end tag?
+	<br>,<img>,<link>,<input>..etc
+- -
+what is the difference between tag and elements?
+	A tag may be a start tag or end tag,it doesnot have content.
+	example:
+	<h1>,<p>,</h1>,</p>...etc.
+	An element is a combination of <start tag>,some content and </endtag>
+	Example:
+	<h6> content here six</h6>
+- -
+What is the browser ?
+	the purpose of a browser is to read html document and display them
+	correctly.Browser doesnot display the html tags ,but uses them to 
+	determine how to display the document.
+example:
+	chrome,edge,firefox,safari.
+ -- 
+What is the server?
+	Server is a machine ,where we host our web application.
+--
+What is the difference between web browser and web server?
+	web browser
+		It will be installed in client machine.
+	Example:
+		chrome,edge,firefox,safari.
+	web server
+		It will be installed in server machine.
+		Example:
+			Tomcat,jboss,weblogic.
+--
+tell,me about html history?
+	since the early days of the world wide web , there have been many versions
+	of HTML:
+year	Version
+1989	Tim Berners Lee invented WWW.
+1991	Tim Berners Lee invented HTML.
+1993	Dave Raggett drafted HTML+.
+1995	HTML working Group defined html 2.0
+1997	w3c Recomendation : html 3.2
+1999	w3c Recomendation : html 4.01
+2000	w3c Recomendation:XHTML 1.0
+2008	WHATWC HTML5  first public Draft
+2012	WHATWC HTML5  living standards
+2014	w3c Recomendation:HTML5
+2016	W3C Candidate Recomendation:html 5.1
+2017	w3c Recomendation:html5.1 2nd Edition
+2017	w3c Recomendation:HTML5.2
+--
+What is the difference between html4 and html5?
+DOCTYPE
+html4
+<!DOCTYPE HTML PUBLIC "- w3c DTD HTML 4.01 EN "http://www.w3.org/tr/html4
+strict.dtd">
+HTML5
+<!DOCTYPE html>
+--
+new elements
+<header>,<footer>,<nav>,<audio>,<vedio>,<main>and etc..
+--
+new form controls
+date,time,email,number,category,title,url,search and etc...
+--
+multimedia support
+html4	no support
+html5 audio and vedio
+--
+Storage
+HTML4	cache and cookies
+HTML5	Local storage and session storage
+--

@@ -1,0 +1,43 @@
+What are the display possibilities in javascript?
+	innerHTML
+	console.log()
+	document.write()
+	window.alert()
+	window.print()
+--
+innerHTML
+	To access HTML element, javascript can use the document.getElementById
+	("id") method.
+	The id attribute defines the HTML element and the content inside the HTML 
+	element is the innerHTML.
+--
+console.log()
+	It is used for debugging purpose.
+	If we want to display data in console, then write data into console.log() 
+	method.
+--
+document.write()
+	It is used for testing purpose.
+	Using document.write() after an HTML document is loaded ,it will be lodded,
+	it will be delete all existing content from the browser and writes a new
+	content into the body.	the document.write()should be used only for testing.
+--
+windows.alert()
+	we can use an alert box to display data.
+	we can skip the window keyword in window.alert() it is an optional.
+--
+window.print()
+	javascript does not have any print object or print methods 
+	you have to call window.print() method in the browser to print the current
+	page,you cannot access output devices from javascript.
+FAQs
+	HTML<--javascript<-- java<--database
+What is difference between window And document object.  
+
+	When an HTML  document is loaded into a web browser , it becomes a
+	document object.
+	The document  object is the root node of the HTML document.
+	The document object is the property of the window object.
+	Example:
+		let url = window.document.URL; or just document.URL;
+ 

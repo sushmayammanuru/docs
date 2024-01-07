@@ -1,0 +1,75 @@
+Why we need to use conditional statements?
+	Conditional statements are used to perform different actions based on
+	different conditions.
+--
+what are the conditional statements?
+	if
+	ifelse
+	else-if ladder
+	switch case
+--
+What is if statement?
+	if the specified condition is true, then only if block of code will excute.
+	Syntax:
+		if(condition){
+		//true condition block of code
+		}
+	Example:
+		if(age>=18){
+			// write a logic for applying voter card
+		}
+--
+What is else statement?
+if the specified condition is false , then only else block of code will excute.
+Syntax:
+	if(condition){
+	 //condition true block of code
+	}
+	else{
+		//condition not true block of code
+	}
+Example:
+	if(age >= 18){
+		// write  A logic for applying a votercard
+	}else{
+	 //write a logic to show information to the user.
+	}
+what is else if statement?
+	else-if statement is used to specify a new condition.
+	if the condition is true , if will excute if block.
+	if the condition is false , it will excute else block.
+Syntax:
+	if(condition1){
+		//if condition1 true block of code.
+	} else if (condition2){
+	 //else if condition2 true block of code
+	}else {
+		//if all conditions are not true block of code.
+	}
+Example:
+	if(class<=5){
+		//go to primary scholl
+	}else if (class<10){
+		//go to high school
+	}else if (class<=12) {
+		// go to inter college
+	}else if(class<=15){
+		//go to degree college
+	} else {
+		// go to pg college
+	}
+What is switch case?
+if you want to check more conditions [more than 4], its better to use switch
+instead of else if ladder. 
+--
+differece between else if ladder and switch?
+
+else-if ladder taking a time to process and excuting . it firstly check the each 
+condition if the condition is true .That code of block will be excute  after
+it wont check the other  conditions.It checks the  condition until the condition
+is true.
+
+Switch case it only checks the particular condition which is matched that case of
+ code block will be excuted then breaks the condition and breaksout from the condition
+ it wont check before conditions and after conditions also.Thats why most of them
+ prefer  switchcase than else -if ladder. its taking less time consumption.
