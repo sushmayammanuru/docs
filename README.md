@@ -1,2 +1,2 @@
 # docs
-docs application where i will write all my notes
+DOCS application here I will write all my notes.
