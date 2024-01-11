@@ -1,0 +1,18 @@
+
+
+Professional Summary:
+Having experience in all the phases of software development life cycle including design,
+Development,integration,implementation,and testing  of various client/server, web applications
+•	Experienced in HTML5 , CSS, JavaScript,Json,jQuery,Bootstrap
+•	Experienced in databases SQL
+•	Working with Restful / Microservices
+•	Developed responsive web pages using media queries
+•	Written CSS classes and javascript functions
+•	Good understanding of Document Object Model[DOM] and DOM functions.
+•	Ability to work on any UI development framework.
+•	Worked on front-end development using the Object- Oriented Javascript and jQuery.
+•	Working with browsers compatability issues.
+•	Developed the presentation  layer using AJAX
+•	Quick learner and  excellent team player having ability to meet tight deadlines and work under pressure
+•	A self starter with positive attitude, willingness to learn new concepts and acceptance of challenges
+•	Flexible and versatile to adapt to any new environment and work on project.

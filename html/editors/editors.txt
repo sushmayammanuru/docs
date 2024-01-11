@@ -15,5 +15,14 @@ Online Editorse
 	https:// jsfiddle.net/
 - -
 FAQs
-	What are IDEs that you have used in your project?
-	What are online editors that you aware?
+What are IDEs that you have used in your project?
+	Mostly im using visual studio code in my project and i know how to use web -
+	strome and eclipse. if you give mea a opportunity to work on that i am able
+	to work on that.
+	
+What are online editors that you aware?
+	I know some of the online editors.
+	They are
+		stackblitz.com
+		codepen.io
+		jsfiddle.net

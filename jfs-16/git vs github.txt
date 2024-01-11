@@ -1,0 +1,14 @@
+What is version control system?
+	A Version Control Control system allows you to track the changes to your code
+	over time. Its essential for developers who often need to work on the same code-
+	based concurrently,It gives them a way to undo a mistakes track changes,and
+	collaborate with others on code.There are many version control system offered
+	
+What is Git?
+	Git is a version control System that allows you track the changes in their code.
+	
+What is Github ?
+	Github is a web based hoisting service for git repository
+	
+** We can use Git without Github,but we cannot use Github without Git.
+** Git is a local repository and github is a central repository.

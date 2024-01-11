@@ -3,9 +3,9 @@ Skill		:	MPC		|	Web Application Developer 	|	Fullstack Developer
 Other Skills:	100 + Skills are present
 --
 Skills
-Primary		: 	Maths		Frontend 100	90
+Primary		: 	Maths		Frontend   100	90
 Secondary	:	Physics		Middleware 100	70
-Tertiary	:	Chemistry	Backend 100		70
+Tertiary	:	Chemistry	Backend    100	70
 --
 Frontend	:	View Layer		:	Forntend Developer 	| UI Developer
 Middleware	:	Controller Layer:	Middleware Developer| Java Developer

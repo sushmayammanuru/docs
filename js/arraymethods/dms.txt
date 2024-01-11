@@ -1,0 +1,27 @@
+There are two ways  one is Inflow and Other is Outflow.
+Inbound :This is one of the way to  upload the document.
+		 Manual Uploading(create the documents).
+		 Scheduled job uploading.
+		 FTP(File Transfer Protocal).
+		 Email.
+		 Scanner(Once we are scanned the document it is went to the mail).
+		 Invoices.
+		 Builds.
+Outbound :
+	This is the other process Download(deactivation).after completing the work on documents.they are going into deactivation. Because they clear the storage after some time.(downloading the documents and deleting the documents)
+		 FTP(File Transfer Protocal)
+		 Schedule job downlaod
+		 Email
+		 
+Searching docs(search):
+	It is for searching purpose
+
+Work flow approvals: 
+	workflow means invoice
+	(realesed) and rejections(reject)
+
+Archeiving (moving):
+	After completing some particular time period. The Documents are moving from main server to back or black servers.It is done by automation.
+
+purging(permenently delete):
+	Purging means permenently delete the documents after completing a cerrtain period

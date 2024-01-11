@@ -4,13 +4,14 @@ Tell me about your self?
 	My name is venkataSushma Yammanuru, You can call me sushma.
 	I am from Badvel in the state of Andhra Pradesh but currently staying 
 	in hyderabad in the state of Telangana.
-	I completed my post graduation in masters in the stream of computer science&
-	techologies.
+	I completed my post graduation in the stream of computer science&techologies.
 	After my post graduation, I joined as an intern at Aktrix Technologies
 	Private limited.which is located at Hyderabad.
-	After completing my six months as an intern, I have been employed at Aktrix
-	Technologies.I started my carrier as a Web Application developer and my 
-	primary skill is the Frontend.
+	Every two days in a week going to office and remaining three days working from home.
+	
+	cuurently i am working as a web application developer and my primary skill is front end.
+	
+	
 	I can even work on Middleware as well as Backend.
 	Currently, I am working in a project named payroll and involving in the 
 	department as well as support.
@@ -21,7 +22,7 @@ Tell me about your self?
 	Lastly, I am quick learner and believe in learning the mistakes from my past.
 	
 Explain about your technical experience?
-	I had 2.6 years of experience in all phases of Software Development Life 
+	I have experience in all phases of Software Development Life 
 	Cycle including design, development and testing various client/server web 
 	applications.
 	Experienced in HTML5, CSS3, Bootstrap, Jquery, javascript and typescript.
