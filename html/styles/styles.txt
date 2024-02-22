@@ -4,9 +4,9 @@ Syntax:
 <tagname style="property:value;">
 ==
 How to apply Background color to an element?
-	background-color property defines the background clor for an html element.
+	background-color property defines the background color for an html element.
 Example:
-<h1 style-"background-color:red;">this is a heading</h1>
+<h1 style="background-color:red;">this is a heading</h1>
 ==
 How to apply text-color to an element?
 	color property defines the text color for an html element.

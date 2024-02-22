@@ -10,7 +10,7 @@ Example :
 Why use Arrays?
 	If you want to group similar items , we use arrays.
 Example:
-	let employeeArray = ["sushma","sudha"];
+	let employeeArray = ["sushma","kalyan","sudha"];
 
 How to create array with empty values?
 	let employees = [];

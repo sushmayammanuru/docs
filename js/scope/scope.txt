@@ -1,0 +1,33 @@
+ Scope
+	Scope determines the accessibility of variables , objects, and functions
+	from different parts of the code.
+javaScipt has 3 types of scopes
+	Global scope
+	function scope
+	block scope
+--
+Global scope
+	In JavaScript, objects and functions are also variables.
+	A variable declared outside of a function, becomes Global,
+	automatically Global
+		If you assign a value to a variable that has not been declared,
+		It will automatically become a Global variable
+--
+Function scope
+	Variable defines inside a function with let and const types are not accessible (visible) from outside the function.
+--
+block scope
+	Before ES6 (2015), JavaScript had only  Global scope and function scope.
+	ES6 introduced  two important new javaScipt keywords : let and const .
+	These two keywords provide block scope in javaScipt
+	Variable  declared inside a {} block with let and const types cannot be accessed from outside the block.
+==
+What is the reason beyond introducing let and const in ES6?
+	Before introducing let and const variables, var is used to  declare the variables within the function and block scope.
+	If we are declaring  variable with var type in function and block scope , we can access the variables outside  of the function.
+	This is for security purpose/accessibility issue .That is the reason let and const are introduced in ES6.
+	So if you want to declare  a variable within the function  or block level then use let and const.
+	If Declare the variable inside the function or block with let and const we
+	we cant access  outside the function or block.
+--
+What is the diff b/w global, function and block scope?

@@ -1,4 +1,4 @@
-What are data Types?
+  What are data Types?
 	Javascript variables are whole different datatypes such as
 		1.undefined	`
 		2.null

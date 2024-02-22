@@ -49,7 +49,7 @@ What is javascript Expressions?
 What are javascript keywords?
 	Javascript keywords [63] are used to identify actions to be performed.
 	THe let keyword tells  the browser to create variables.
-	The var keyword also tells the browser to create variables.4
+	The var keyword also tells the browser to create variables.
 	By using var or let keywords, the result will be same .
 --
 What are javascript comments?

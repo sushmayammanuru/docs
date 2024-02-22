@@ -1,6 +1,7 @@
 function main(){
 	console.log("main function start");
 	//addition();
+	addition2(12,13);
 	//addition1(2,3);
 	//addition1 (22,33);
 	//addition1(1234,5678);
@@ -12,13 +13,13 @@ function addition(){
 	let c = 2 + 6;
 	console.log("c = "+c);
 }
-function addition1(a, b){
+function addition1(a , b){
 	let c = a + b;
 	console.log("c = "+c);
 }
-function addition2(a, b){
+function addition2(a , b){
 	return c = a + b;
-	let c = 123;
+//	let c = 123;
 }
 function addition3(a , b){
 	return a + b ;

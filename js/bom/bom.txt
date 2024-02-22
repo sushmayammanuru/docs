@@ -5,7 +5,7 @@ what is BOM?
 	for javascript interactivity,it is often reffered to as methods and
 	properties of the BOM.
 --
-what is Window Object?
+what is Window Object? 
 	The window object is supported by all browsers.It represents the browser's
 	window.
 	All global javascript objects,functions,and variables automatically become

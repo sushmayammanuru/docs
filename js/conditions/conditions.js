@@ -7,8 +7,9 @@ function main(){
 	//greeting(3);
 	//switchCaseBreak1();
 	//  switchCaseBreak2();
-	switchCase();
+	//switchCase();
 	//switchGrade();
+	applyForVoterCard();
 	console.log("main function end");
 }
 function ifTrue(){
@@ -35,7 +36,7 @@ function applyForVoterCard(age){
 	}
 else{
 	console.log("you are not eligible for applying votercard");
-	console.log("please apply after "+ (18-age) + "years");
+	console.log("please apply after "+ (18-15)+ "years");
    }
 }
 function elseIfLadder(cls){

@@ -6,7 +6,7 @@ What are the types of loops?
 	for/in :
 		loops through the properties of an object.
 	for/of :
-		loops through the values of an array.
+		loop s through the values of an array.
 	while :
 		loops through a block of code if the specified condition is true.
 		If the condition is true then only excutes  the block of code.

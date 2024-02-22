@@ -1,5 +1,5 @@
 Google V8 JavaScript runtime engine.
-		Google		Chrome
+		Google		Chrome--> v8 javascript runt
 		Microsoft	Edge
 		--
 		OpenJs		NodeJS
@@ -9,8 +9,9 @@ Google V8 JavaScript runtime engine.
 			--
 			C, C++ , C#, ObjectiveC, Java, python
 			OPCODE
-			Byte Code - and bits 0 , 1
-			hardware
+			Byte Code - and bits 0 , 1(The byte code is the intermediate code 
+			compiled and excuted by the JVM or VM(Java Virtual machine) )
+			hardware.
 --
 What is NodeJS?
 	Node.js is an open-source, cross-platform, back-end JavaScript runtime
@@ -27,7 +28,7 @@ What is V8?
 	V8 can run standalone , or can be into any c++  application.
 --
 what is the nodeJS?
-	We can javascript files  from the CLI  by using the nodejs,without
+	We can javascript files  from the CLI(command line interface)  by using the nodejs,without
 	having any web browser.
 	It acts like as a server it will compile and runs the js files.
 	nodeJs itself acts as a server, means we can run our application without
@@ -75,6 +76,7 @@ What is the difference between interpreter and compiler?
 What design time?
 	//TODO Developement time.
 --
+What is 
 What is compilation time ?
 	// TODO developer testing time
 --

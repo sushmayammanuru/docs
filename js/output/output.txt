@@ -6,7 +6,7 @@ What are the display possibilities in javascript?
 	window.print()
 --
 innerHTML
-	To access HTML element, javascript can use the document.getElementById
+	To access HTML element, javasc ript can use the document.getElementById
 	("id") method.
 	The id attribute defines the HTML element and the content inside the HTML 
 	element is the innerHTML.

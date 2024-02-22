@@ -1,0 +1,5 @@
+What is "use strict" in javascript?
+	Define that javascript code should be excuted in "strict mode"'
+	introduced by ES5 version.
+	recognized at the beginning of a script or function.
+--

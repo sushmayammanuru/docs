@@ -1,0 +1,6 @@
+What is Hoisting?
+	Moving variable declaration to top of variable usage is called hoisting.
+	variable can be used before it has been declared in case of var type.
+	variable can't be used before it has been declared in case of let and const
+	type
+--

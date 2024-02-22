@@ -1,0 +1,30 @@
+What is component?
+	components are the main building block for angular application.
+Each component consists of
+	A TypeScript  class - that defines behaviour.
+	A HTML template - that declares what renders on the page.
+	A CSS selector - that defines how the component is used in a template.
+	A spec.ts file //TODO
+	Optionally , css styles applied to the template.
+--
+What is the default / root component ?
+	app.component .ts is the default root component in a Angular application.
+--
+We can change the root component?
+	yes, we can change the root component.
+	app.module.ts
+		bootstrap: [Custom-Component]
+--
+How to create a component?
+	1.Manually 
+	// I will do
+	2.command
+		Navigate to your Angular project directory and you can create a
+		component using command
+		ng generate component component-name
+		ng g c component-name
+--
+How to create a component in a specific folder?
+	ng g c hrms/employee/create-employee
+--
+	

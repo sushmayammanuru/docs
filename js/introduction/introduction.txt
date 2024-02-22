@@ -4,12 +4,12 @@ Can javascript change HTML content?
 --
 What is getElementById()?
 	It is a prefined function available in javascript.
-	By giving an id="id" , we can get an element from the html page javascript.
+	By giving an id="id" , we can get an element from the html page to javascript.
 --
 What is innerHTML?
 	It defines the content start tag and end tag of an element
 	Example:
-		document.getElementById("firstname").innerHTML="kumar'
+		document.getElementById("firstname").innerHTML="kumar" 
 --
 can javascript change html attribute values?
 	yes javascript can change the html attribute value.

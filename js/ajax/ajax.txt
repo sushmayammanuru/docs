@@ -1,0 +1,146 @@
+What is Synchronous?
+    - Executing the functions or code one by one/line by line is called Synchronous.
+    - Example:
+        Booking a movie ticket from one counter.
+
+What is Asynchronous?
+    - Executing the functions or code parallelly is called asynchronous.
+    - Example:
+        Booking the movie from multiple counters.
+
+What is AJAX?
+    - AJAX is not a programming language, it is a part of javascript.
+    - AJAX is a technique for accessing web servers(Tomcat) from a webpage(Chrome)
+    - AJAX stands for Asynchronous Javascript and XML.
+    - Javascript is synchronous by default. 
+	- By default javascript won't wait for to get response from the server.
+    - By using AJAX we can implement asynchronous mechanism in javascript.
+
+What is the usage of AJAX?
+    - By using AJAX we can perform CRUD operations.
+        - We can read data from a web server.
+        - We can send data to a web server.
+        - We can update a webpage without reloading the page.
+        - We can delete the records from the database.
+
+How AJAX works?
+    - AJAX allows webpages to be updated asynchronously by exchanging data with
+	a web server the scenes.
+    This means that it is possible to update parts of a webpage, without reloading the whole page.
+    - AJAX is a misleading name. AJAX applications might use XML to transport data, but it is equally common
+    to transport data as plain text or JSON text.
+
+    Browser [Chrome]    <-->    Internet    <-->    Web Server [Tomcat]
+    1, 2, 7, 8                  3, 6                4, 5
+
+    1. An event occurs in a webpage (the page is loaded, a button is clicked)
+    2. An XMLHttpRequest object is created by javascript.
+    3. The XMLHttpRequest object sends a request to a web server.
+    4. The server process the request.
+    5. The server prepares the response object.
+    6. The server sends a response object back to the webpage.
+    7. The response is read by javascript.
+    8. Proper action(like page update) is performed by javascript.
+
+How to get XMLHttpRequest object?
+    1. Create an XMLHttpRequest object.
+        Syntax:
+            let xhttp = new XMLHttpRequest();
+
+    2. Open request to a server.
+        Syntax:
+            xhttp.open("method_name","http://hostname:portname/appname/service_url", sync/async type);
+        
+        Example:
+            xhttp.open("GET", "departments_url", true);
+            
+            xhttp.open("POST", "departments_url");
+
+    3. Send request to a server
+        Syntax:
+            xhttp.send();
+            xhttp.send(request_body);
+
+        Example:
+            xhttp.send();
+
+            xhttp.send("'departmentId':'270',
+                        'departmentName':'HR'
+                        'managerId':'200'
+                        'locationId':'1700'");
+
+    4. Define a call back function.
+        - A callback function is passed as a parameter to another function.
+            Syntax:
+                xhttp.onload = function(){
+                    //process the response object
+                }
+				
+What is Access Across Domains?
+
+What is CORS Policy Issue?
+	For security reasons, modern browsers do not allow access across domains.
+	This means that both the web page and the XML file it tries to load, must
+	be located on the same server.
+	
+	Example: In aadhar server, all person pics are located at aadhar domain.
+	If you want to use the aadhar example on one of your own web pages, then 
+	persons	pic you load must be located on your own server.
+	
+	Example: 			aadhar		aadhar.com
+		Enabled for : 	phonepe		phonepe.com
+						gpay		gpay.com
+						jio			jio.com
+						USA			usembassy.com
+						
+		Restricted for: Pakistan	rupe.com
+		
+What are XMLHttpRequest Object Methods?
+	- Open: This method is used to open the object to request the server.
+	- Send: This method is used to send the request.
+	
+Is Javascript asynchronous by default?
+	- NO, javascript is always synchronous
+	
+XML or JSON?
+	- Carrying the data to and  from the server to browser we can use XML and JSON
+	  JSON is understandable, shorter and faster than XML.
+	  
+What is XMLHttpRequest?
+	- XMLHttpRequest is used for asynchronous communication between browser and server.
+	  Sends the data from the server to browser.
+	  Receives the data from the server to browser.
+	  Updates the data on webpage withoout reloading.
+	  
+Properties of XMLHttpRequest?
+	- onreadystatechange:
+		It is called whenever readystate attribute changes.
+		It must not be used with synchronous requests.
+	- readystate:
+		represents the state of the request. It ranges from 0 to 4.
+		holds the status of the XMLHttpRequest.
+			0: request not initiated
+			1: server connection established
+			2: request received
+			3: processing request
+			4: request finished and response is ready.
+			
+		responseText: returns response as text.
+		responseXML: returns response as XML.
+		
+Methods of XMLHttpRequest?
+	- open(method, URL): opens the request specifying get or post method an url.
+	
+	- open(method, URL, async): Same as above but specifies asynchronous or not.
+	
+	- open(method, URL, async, username, password): same as above but specifies username and password
+	
+	- send(): sends the request.
+	
+	- send(string): send post request.
+	
+	-setRequestHeader(header,value): It adds request headers.
+	
+What is the difference between onreadystatechange and readystate?
+
+	

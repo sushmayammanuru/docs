@@ -1,14 +1,14 @@
 function main() {
 	console.log("main function start");
 	//undefined1();
-	null1();
+	//null1();
 	//number();
 	//number1();
 	//bigint();
 	//string();
-	//dynamic();
-	arrays();
-	objects();
+	dynamic();
+	//arrays();
+	//objects();
 	console.log("main function end");
 }
 function undefined1(){

@@ -1,24 +1,24 @@
 function main(){
 	console.log("main function start");
-	//stringType();
+	stringType();
 	//arrayType();
 	//emptyArrayWithSqaureBraces();
 	//emptyArrayWithNewKeyword();
-//arrayWithInitialIndex()
+    //arrayWithInitialIndex()
 	//forOfArrayIndex();
 	//arrayIndex1();
 	//forOfArrayIndex();
 	//arrayIterateWithFor();
 	//arrayIterateWithForOf();
-//	arrayIterateReverseDirection()
+    //arrayIterateReverseDirection()
 	//getFirstElement();
-	getLastElement();
+	//getLastElement();
 	console.log("main function end");
 }
 function stringType(){
 	let employee = "Azhar";
 	console.log("employess = "+ employee);
-	console.log("employess = "+ typeof employee);
+	console.log("employess type = "+ typeof employee);
 }
 function arrayType(){
 	let employees = ["Azhar","sushma"];
@@ -36,11 +36,11 @@ function arrayType(){
 	console.log("employess = "+ typeof employee);
 	}
 	
-	function stringType(){
-	let employee = "Azhar";
-	console.log("employess = "+ employee);
-	console.log("employess = "+ typeof employee);
-	}
+	//function stringType(){
+	//let employee = "Azhar";
+	//console.log("employess = "+ employee);
+	//console.log("employess = "+ typeof employee);
+	//}
 	function arrayIndex(){
 	let employee = ["Azhar","Durga","Sushma","Salma"];
 	console.log("employess = "+ employee[0]);

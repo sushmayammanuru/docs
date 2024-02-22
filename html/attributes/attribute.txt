@@ -78,9 +78,16 @@ Example
 --
 FAQs
 	HTML attributes
+		HTML attributes gives the additional information about the html element.
+		it always used start tag and it is used like as key value pairs.
 	href attributes
+		href attribute it is a local attribute it is used in <a>tag.it is used 
+		for path of the webpage. 
 	src attribute
+		It is a attribute of <img> element.it is used for to give the path of 
+		the image.
 	alt attribute
+	
 	style attribute
 	lang attribute
 	title attribute

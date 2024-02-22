@@ -1,0 +1,9 @@
+what is IIFE?
+	immediate invoke function Excution(expression)
+usage of iife functions?
+What type of logic that we have to write in iife function?
+	single sign on logic.
+	if we wont excute some logic before body tag onloading.
+	.. etc
+what is difference with regular function
+	

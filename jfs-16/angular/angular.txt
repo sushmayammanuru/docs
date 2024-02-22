@@ -1,0 +1,127 @@
+What is Angular?
+    - Angular is a javascript framework which is backed by google, which allows us to create a single page applicaion.
+
+What is SPA?
+    - SPA is basically a web applicaion where all functionalities are framed on a single page.
+    - SPA has only one html file and bunch of html templates, javascript and css files.
+    - In SPA, all the html templates, css and javascript files are rendered on the same page dynamically.
+    - User can navigate different sections of the page by clicking on links or buttons without reloading the page.
+    - It looks like as a mobile application, they give better user experience.
+
+What is the difference between AngularJS and Angular?
+    - Language:
+        - AngularJS uses javascript language which is dynamically typed language.
+        - Angular uses Typescript language, which is a statically typed language and is a superset of Javascript
+    
+    -Mobile Support:
+        - AngularJS doesnot provide mobile support.
+        - Angular is supported by all popular mobile browsers.
+
+    - Version:
+        - AngularJS was introduced in 2010, it is written in Javascript. It is also called as Angular1.
+        - Angular framework was introduced in 2016, it uses Typescript as programming language.
+            
+            - It is completely rewritten framework, it is not related with AngularJS. We call it as Angular2.
+                Angular2
+                Angular3 xxx
+                Angular4
+                ...
+                ...
+                Angular10
+                Angular11
+                Angular12
+                Angular13
+                Angular14
+    
+    - Architecture:
+        -AngularJS uses MVC or Model-View-Controller architecture.
+            -View shows data to the users.
+            -Controller gets the data from Model, it process the data and expose data to view.
+            -Model contains the business logic.
+            -Angular replaces controllers with conponents.
+            -Components are nothing but directives with a predefined template.
+
+What is the difference between javascript and typescript?
+    - Typescript is a superset of Javascript.
+    - Javascript runs in the browser indirectly, commpilation phase is not required.
+    - Typescript won't run in the browser directly, it requires compilation phase.
+    - TSC compiler will take .ts file as an input and generates the .js file as an output.
+    - Angular uses the Ahead-Of-Time(AOT) compiler.
+
+How to download and install Angular?
+    - Install nodejs and npm
+        set nodejs path
+        check: node -v //v14.21.3
+               npm -v  //6.14.18
+    
+    - Install typescript
+        npm install -g typescript
+        npm install -g typescript@4.8
+    
+    Install angular 
+        npm install -g @angular/cli
+        npm install -g @angular/cli@14.2.11
+
+How to check version of Angular?
+    - ng version
+
+How to create a folder in Angular?
+    - ng news hrms
+
+What is routing in Angular?
+    - Routing in angular is used to create single page applicaion with multiple views and navigation within them.
+
+What are SASS, SCSS?
+    - SASS(Syntactically Awesome Style Sheets) is a scripting language which on compilation generate CSS file.
+    - SCSS is the main syntax of SASS which is built upon CSS syntax.
+
+What is difference between CSS and SCSS?
+    - CSS is a style language that is used to style and create webpages.
+    - SCSS is a particular type of file for SASS, it used the Ruby language.
+      which assemble the browser's CSS style sheets.
+
+    - SCSS contains advanced and madified features.
+    - SCSS is more expressive than the CSS.
+
+What is the difference between SCSS and LESS?
+    //TODO
+
+How to build a angular project?
+    - ng build
+        Compile + Package
+
+How to run a angular project?
+    - ng serve
+        Compile + Package + Deploy
+
+What is the difference between build and serve?
+    //TODO
+	
+How to install the dependent libraries?
+
+How to integrate bootstrap with angular?
+    - 
+
+What is package.json file contains?
+    - All the packages/libraries that we use into our angular project those are registered into package.json
+      files with version information.
+    - Package.json contains version information but not packages/libraries
+    - Angular Packages: Angular core and optional modules; their package names begin @angular
+        Ex: @angular/core, @angular/forms, @angular/router, @angular/compiler
+    - Support Packages: 3rd party libraries that must be present for Angular applications to run.
+        Ex: bootstrap, Rxjs libraries
+
+What is angular.json file contains?
+    - Angular.json contains a set of Architect target commands.
+        Ex: architect/build, architect/serve, architect/e2e, architect/test commands.
+
+How an angular app gets started and loaded?
+    - When an angular app gets ser ved, couple of CSS and JS files are imported into the index.html by the Angular CLI.
+    - One of the important file imported into the index.html file is main.ts file.
+    - In main.ts file, we bootstrap the root module app.module.ts file.
+    - In app.module.ts file, we  bootstrap the root component app.component.ts file.
+    - In index.html file, the root-selector is configured. So that angular framework will load the app.component.ts element
+      dynamically into index.html.
+    
+    - index.html>>main.ts>>app.module.ts>>app.component.ts>>index.html>>app.component.html
+

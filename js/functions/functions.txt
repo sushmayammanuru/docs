@@ -24,7 +24,7 @@ Example:
 	createEmployee("ravi","kumar",9912456789);
 
 what  is return statement?
-	when function reches the "return" statement, It will returns the value to the
+	when function reaches the "return" statement, It will returns the value to the
 	caller function and it will stop  excuting the function.
 	we have to write return statement at the end of the method.
 Syntax:
@@ -72,18 +72,3 @@ Local variables?
 			// block of code
 			retutn res;
 		}
-What is return statement?
-	when function reaches "return" statement, it will return the value to the 
-	caller function and it will stop excuting the function.
-	We have to write return statement at the end of the method.
-Syntax:
-	function functionName(){
-			// block of code
-			return something;
-		}
-		Example:
-		function addition(n1,n2){
-		let res = n1 + n2;
-		return res;
-		}
-		

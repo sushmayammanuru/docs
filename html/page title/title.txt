@@ -1,1 +1,5 @@
 How to add title to the web application?
+	We can add the page title ,it will be displayed in the top of the browser tab
+	if we dont give the title to the webpage .then it displays the which name 
+	is save the file ,that file name will be displayed in the title bar of the
+	webpage.

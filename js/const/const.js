@@ -1,13 +1,13 @@
 function main() {
-	redeclaration();
-	usageBeforeDeclaration();
+	//redeclaration();
+	//usageBeforeDeclaration();
 	//declarationAndDefinationInSingleLine();
 	//declarationAndDefinationInMultipleLine();   
     //declarationAndDefination();  
 	// reassignment();
 	//blockScope();
     // hoisting();
-	//redeclarationAndBlockScope();
+	redeclarationAndBlockScope();
 }
 
 function redeclaration() {

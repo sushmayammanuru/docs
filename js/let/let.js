@@ -6,9 +6,8 @@ function main(){
 	console.log("main function start");
 	//redeclaration();
 	//usageBeforeDeclaration();
-	blockScope();
-	
-//reAssignment ();	
+	blockScope();	
+	//reAssignment ();	
 	console.log("main function end");
  }
 function redeclaration(){
@@ -17,7 +16,7 @@ function redeclaration(){
 	// let n1; // identifier 'n1' has already been declared
 	 console.log("redeclaration method end");
  }
-function usageBeforeDeclaration() {
+function usageBeforeDeclaration(){
 	 console.log("usageBeforeDeclaration method start");
 //	 let n3 = n1 + n2; // expecting error here.
 					// error : cannot access 'n1' before initialization.
@@ -42,7 +41,9 @@ function declarationAndDefinationInSingleLine () {
 function reAssignment() {
 	let n1 = 12; 
 	n1 = 13 ;
-	n1 = 14 ; 
+	n1 = 14 ;
+	n1 = 15;
+	//let n1;
 	console.log("n1 = "+n1);
 }
 function blockScope() {

@@ -2,7 +2,7 @@ let a , b, c, d;
 a = 5;
 b = 6;
 c = a + b;
-console.log(" addition of"+ a +" and "+ b + " = "+ c);
+console.log(" addition of "+ a +" and "+ b + " = "+ c);
 
 a = 5;
 b = 6;

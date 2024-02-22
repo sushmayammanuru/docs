@@ -9,9 +9,9 @@ function main() {
 	//remainder();
 	//increment();
 	//decrement();
-	//append();
+	append();
 	//comparison();
-	increment1();
+	//increment1();
 }
 
 function concatenate(){
@@ -103,6 +103,9 @@ function decrement(){
 	console.log(y); //4
 	console.log(a); //5
 	console.log(b); //4
+	z = 4
+	c = z--
+	console.log(z--);
 }
 function append(){
 	let fn = "ravi";
@@ -112,9 +115,9 @@ function append(){
 	let z = '13';
 	let a = x + y + z;
 	let b = z + y + x;
-	console.log(a);
-	console.log(b);
-	console.log(fn + " " + ln);
+	console.log(a);//2313
+	console.log(b);//131211
+	console.log(fn + " " + ln);// ravi kumar
 }
 function comparison(){
 	let x = 11;
@@ -129,15 +132,17 @@ function increment1(){
 	x = 4;
 	y = 5;
 	x = x++
+	console.log(x);//4
 	y = ++y
-	console.log(x);
-	console.log(y);
-	console.log(x++);
-	console.log(++y);
+	console.log(y);//6
+	console.log(x);//4
+	console.log(y);//6
+	console.log(x++);//4
+	console.log(++y);//7
 }
 /*
 what is the overloaded operator in javascript and java?
-+ addition and append 
+	+ addition and append 
 What is the difference between -- and --- operators?
 what is ternary ? operator?
 */0

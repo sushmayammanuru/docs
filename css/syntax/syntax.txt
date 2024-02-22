@@ -1,4 +1,4 @@
-How to write a css code?
+ How to write a css code?
 	A CSS consists of a selector and a declaration block.
 	where selector points to the html element you want to style.
 	Declaration block contains one or more declarations,

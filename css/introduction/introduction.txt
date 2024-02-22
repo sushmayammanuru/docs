@@ -9,9 +9,9 @@ Why use css?
 	CSS is used to define styles for a web pages ,including the design,
 	layout and variations in display for different devices and screen sizes.
 --
-How css solve problems
+How css solve problems?
 	HTML was never intended to contain tags for formatting a web page.
 	Before html 3.2 there was no <font>tag and color attribute.
-	so it is hard to write and also length of the code also increases .
+	so it is hard to write and length of the code also increases .
 	For that reason CSS was introduced to solve the problems.
 	

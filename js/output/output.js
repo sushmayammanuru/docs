@@ -2,7 +2,7 @@
 document.getElementById("p1").innerHTML = 
 "This is para one from javascript";
 /*BY using console Functions*/
-cosole.trace("this is a trace");
+console.trace("this is a trace");
 console.info("this is a info");
 console.log("this is a log");
 console.warn("this is a warn");
@@ -12,6 +12,6 @@ function write() {
 document.write("this is a content from document.write function");
 
 }
-function transferAlert(){
-	windows.alert("are you sure you want to transfer the money");
+function windowAlert(){
+	window.alert("are you sure you want to transfer the money");
 }

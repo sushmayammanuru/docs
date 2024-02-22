@@ -1,4 +1,4 @@
-HTML Quotations ana Citations Elements
+HTML Quotations and Citations Elements
 	In this we are having some elements like:
 	<blockquote>-element
 	<q>-element
@@ -26,7 +26,7 @@ HTML <abbr> for abbrevations
 	Use title attribute  to show the description for the abbrevation,when you
 	mouse hover the element.
 Example:
-	<p>The<abbr titke="world health organisation">WHO</abbr>was founded in 1948</p>
+	<p>The<abbr title="world health organisation">WHO</abbr>was founded in 1948</p>
 --
 
 
@@ -48,7 +48,7 @@ Example:
 	</address>
 --
 <cite>
-	The <cite> element defines the title of an creative work like :a bpook,a 
+	The <cite> element defines the title of an creative work like :a book,a 
 	poem,a song...etc
 	The text in the <cite> element will be in italic.
 Example:

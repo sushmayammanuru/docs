@@ -1,0 +1,38 @@
+What is npm ?
+	NPM stands for Node Packeging Manager.
+	It will maintains the packages/libraries of a project/application.
+--
+How to download and install npm?
+	Now a days npm is coming along with nodejs, so install NodeJs.
+	To publish and install packages to and from the public npm registry or
+	a private npm registry, you must install NodeJs and npm command line
+	interface using either a Node version manager or a Node installer.
+--
+What is nvm?
+	If you want to work with multiple node and nvm version at a time  in a single
+	machine we can work with the help of NVM.
+	
+What is NPM  CLI?
+	If you want to work with npm we need commands , i.e command level interface.
+	CLI also comes along with nodejs.
+==
+What is the latest version of NPM?
+	9.5.1
+What are the npm commands that you know?
+	npm install
+	npm uninstall
+	npm update
+	npm diff
+==
+What is the diff b/w remote, global, local libraries?
+remote libraries
+	npmjs.come
+global libraries
+	nodejs-->nodejs-->12.18.3-->node_modules
+	npm install -g package-name
+==
+local libraries
+	apps -->hrms-->node_modules
+	npm install -1 package-name
+==
+What is the differece

@@ -5,11 +5,12 @@
 	console.log("main function start");
 	//nothing();
 	//var1();
-	//nan ();
+	//nan();
+	nan2();
 	//redeclaration();
  // usageBeforeDeclaration();
-	//sushma();
-	blockScope();
+	sushma();
+	//blockScope();
 	console.log("main function end");
  }
  function nothing(){
@@ -67,6 +68,7 @@ var firstName;
 function sushma() {
 let	n1 = 12;
 let	n2 = 13;
+let n2 = 15;
 var	n3 = n1 + n2;
 console.log("value n3 = "+ n3);
 	 
@@ -86,4 +88,15 @@ console.log("value n3 = "+ n3);
 	console.log("blockScope function end");
 	}
 	
-
+ function nan2() {
+	 console.log("nan function start");
+	 var m1;
+	 var m2 = "sushma";
+	 var m3 = m1 + m2;
+	 console.log("value of m3 = "+m3);
+	 console.log("type of m3 = "+typeof m3);
+	// console.log("nan method end");
+		console.log("type of m1 = "+typeof m1);
+		console.log("type of m2 = "+typeof m2);
+	console.log("nan method end");
+ }

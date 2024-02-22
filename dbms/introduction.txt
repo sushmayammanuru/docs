@@ -1,0 +1,28 @@
+What is data?
+	Data is nothing but collection of information in pecies or units.
+	It can be used in variety of forms like text,number, media..etc.
+	It can be stored in pieces of paper.
+What is database?
+	A database is a organised collection of data, so that we can access and manged easily.
+	It will be organised into form of tables,rows, columns and indexes. 
+What is dbms?
+	DBMS stands for database management system.It is a software that is used to 
+	manage the database,to store the data,retrieve the data, and run queries on data.A DBMS makes it possible for end users to create, protect, read, update
+	and delete data.
+what is rdbms?
+	RDBMS  stands Realational Database Management System.This software is used
+	to store the data, manage, query and retrieve  the data in the relational 
+	database Management System. The RDBMS provides an interface between users 
+	and applications and the database.
+How many types of dbms?
+	DBMS is classified into two types .
+	They are:
+		* Relational database
+		* Non Realational Database
+	Realational Database:
+		 
+	Non Realational Database:
+what is the difference between dbms & rdbms?
+
+what is the difference between dbms & file system?
+

@@ -20,7 +20,7 @@ use target="_self" to open the linked document in the current browser tab.
 	Example:
 	<a href ="https://www.w3schools.com/" target="_self">visit w3 schools</a>
 --
-LInk to an email address
+Link to an email address
 	Use mailto:inside the href attribute to create a link that opens the users
 	email program
 	Example:

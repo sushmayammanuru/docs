@@ -5,7 +5,7 @@ Example:
 	y = 124;
 	z = x + y;
 	--
-In how many ways wee can declare variables in javascript?
+In how many ways we can declare variables in javascript?
 4 Ways
 	nothing
 	var
@@ -39,7 +39,7 @@ what is NaN?
 	NaN is a  number that is not a legal number.
 --
 what are disadvantages of using var?
-		variable re-declaration is possible.
+	 	variable re-declaration is possible.
 		variable usage before variable declaration is possible.
 --
 when to use var ?
@@ -54,5 +54,20 @@ why we should not use var?
 FAQs
 ==
 what is the difference between undefined, NaN?
+UNDEFINED:
+	when we are not given the difination or delaration then we will get the 
+	value is not defined and type is also not defined.	
+NAN:
+	NAN stands for not a number.
+	whenever we are doing concatination with one undefined value and A number
+	then that will give NaN .
+	
 what is the difference between var, let and const?
+	Var, let and const all are variable types 
+	var - we can usage before declaration ,redeclaration and it is global scope.
+	let - It is a keyword introduced in ES6, usage before declaration is not
+	possible and redeclaration is not possible but reassignment is possible
+	with let keyword.
+	const - this type of variable once we are declare we cant change that value
+	,it can't be reassignment and also re-declaration .
 	

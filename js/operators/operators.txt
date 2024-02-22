@@ -18,7 +18,7 @@ The += assignment operator can also used to add strings.
 		let text1 = "Ravi";
 		console.log(text1 += "kumar");
 ---
-Adding Strings and Numbers
+Adding Strings and Numbers 
 Adding two numbers, will return the sum, but adding a number and a string will
  return a string.
 Example:

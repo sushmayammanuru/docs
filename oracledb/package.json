@@ -1,0 +1,14 @@
+{
+    "name": "oracledb",
+    "version": "1.0.0",
+    "private": true,
+    "description": "To access the oracle database from the nodejs",
+    "keywords": [
+      "myapp"
+    ],
+    "author": "sushma",
+    "license": "MIT",
+    "dependencies": {
+      "oracledb": "^11.0"
+    }
+  }

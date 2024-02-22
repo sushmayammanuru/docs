@@ -3,7 +3,7 @@ HTML comments Tags
 	devolopers to understand HTML code.
 	you can add comments  to the html source code by using the following syntax
 Syntax:
-	<!-- weite your comments here-->
+	<!-- write your comments here-->
 There is an exclamation point(!)in the start tag and not in the end tag.
 with comments you can make notifications and remainders in the HTML code.
 Example:

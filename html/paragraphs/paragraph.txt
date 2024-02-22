@@ -42,7 +42,7 @@ Example:
 Break line	
 	the <br>element defines a break line.
 	Use <br> if you want to break the without starting a new paragragph.
-	The <br>tag is an empty taag,that means it has no end tag.
+	The <br>tag is an empty tag,that means it has no end tag.
 Example:
 <p>this is a <br> paragragph with break line</p>
 Poem problem
