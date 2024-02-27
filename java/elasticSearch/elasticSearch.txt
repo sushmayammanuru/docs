@@ -1,0 +1,17 @@
+Elasticsearch:
+	a Brief Introduction about elastiSearch
+	Initially released in 2010, Elasticsearch (sometimes dubbed ES) is a modern 
+	search and analytics engine which is based on Apache Lucene. Its built with
+	Java, Elasticsearch is a NoSQL database. That means it stores data in 
+	an unstructured way and that you cannot use SQL to query it.
+	Elasticsearch is a NoSQL database, which is licensed under the 
+	Apache version 2.0. This tutorial contains several sections.
+pagination:
+	Pagination, also known as paging, is the process of dividing a document into
+	discrete pages, either electronic pages or printed pages.
+	
+What is pagination concept in Java?
+	To divide a large number of records into multiple parts, we use pagination.
+	It allows users to display a part of records only. Loading all records on a 
+	single page may take time, so it is always recommended to created pagination. 
+	In java, we can develop pagination examples easily. 

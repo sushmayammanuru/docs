@@ -90,3 +90,8 @@ What is Enterprise application?
 	here we get two messages from one phonepay and another one is sbi bank,here 
 	clearly we can see when we did transaction from one then we got two messages means one server is communicated with one more server this type of 
 	applications is known enterprise application.	
+what is distributed application?
+	distributed application means the server is not located at a single place.
+	It is located in number of areas. if one server is not work and remaining
+	servers are worked in other areas.
+	

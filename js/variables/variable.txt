@@ -1,5 +1,6 @@
 What  are variables?
 	variables are containers or storage-location for storing the values.
+	*Variable types determines the memory required to store that variable.
 Example:
 	x = 123;
 	y = 124;

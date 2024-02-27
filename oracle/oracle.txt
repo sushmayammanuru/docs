@@ -9,7 +9,7 @@ How to download oracle database?
 //todo
 How to install oracle database?
 //todo
-How to connect oracle 
+How to connect oracle database in windows?
 	press window + s, then it will open the search bar.
 	Type sql command in the search bar ,then it will show RUN SQL command line
 	application.
@@ -17,7 +17,7 @@ How to connect oracle
 	then it will open sql command line application in the command prompt.
 	then we have to connect sys user with the below command.
 	sql> conn sys as sysdba;
-	it will ask you to provide the password so please provide the sys password
+	it will ask you to provide the password so please  provide the sys password
 	(oracle)and press enter.
 	if password is correct it will shows as connected.
 --
@@ -44,7 +44,10 @@ How to connect HR Schema in oracle database?
 	 if password is correct  it will shows as connected.
 --
 how to check sysdate in oracle database? 	 
-	Sql> select systemstamp from dual;
+	Sql> select sysdate from dual;
+--
+how to check systime in oracle database? 	
+	Sql> select systimestamp from dual;
 --
 What is DUAL in SQL?
 	It is a table that is automatically created by Oracle Database.
@@ -61,48 +64,45 @@ select count(*) from tablename(employees);
 example:
 sql>select count(*) from employees;
 --
-How to see the table description in database?
+How to see the table description in database? 
 syntax:
 	desc tablename;
 Example:
 	sql> desc employees;
---
+--` 
 how to unlock hr schema in oracle database?
 		ALTER USER hr INDENTIFIED BY HR ACCOUNT UNLOCK;
 HOW to connect hr schema ?
 	Press window + s , then it will opens the search bar.
-	type sql in the search bar , then it will show RUN SQL , command line application.
+	type sql in the search bar , then it will show RUN SQL , command line 
+	application.
 	Click on SQL command line application .
 	Then it will open SQL command line application in the command prompt .
 	Then we have to connect sys user with the below command.
 	sql> conn hr;
-	it will ask you provide the password  so pls provide the sys password(hr)
+	it will ask you provide the password  so pleases provide the sys password(hr)
 	and press enter . if password is correct it will shows as connected.
 --
 How to see all records from the table?
-it will ask you provide the p
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	Syntax 
+		select * from <table-name>;
+	Example:
+		select * from emplorees;
+--
+how to create a schema in sql?
+	Syntax:
+		creat user Schema_name identified by the schema_password;
+	Example:
+		Create user dms identified by dms;
+		Create user sushma identified by sushma;
+How to provide priviliges to the user in oracle database?
+Syntax:
+	grant connect to userName;
 grant all priviliges to username identified by password;
 Example:
 	grant connect to dms;
 	grant all priviliges to dms identified by dms;
---
+	--
 //todo
 what is DBMS?
 DBMS stands for Database Management system .It is a software that is used to manage the database,to store the data,retrieve the data, and run queries on data.A DBMS makes it possible for end users to create, protect, read, update and delete data

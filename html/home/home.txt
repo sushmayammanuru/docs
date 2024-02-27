@@ -21,6 +21,7 @@ activated by a mouse click,keypress,or screen touch.
 - -
 What is HTML?
 HTML stands for hyper text markup language.
+It is the most building block of the web.
 It is a tag based programming language.
 It is the only language to create a webpage.
 It describes the structure of the webpage.

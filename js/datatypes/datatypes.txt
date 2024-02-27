@@ -9,6 +9,13 @@
 		7.arrays
 		8.objects
 		and many more
+	javascript datatypes are classified into two different data types:
+	they are:
+		1.primitive datatype
+			these are seven,they are
+			undefined,null,number,bigint,string,boolean,arrays.
+		2.non-primitive datatype
+			this is only one that is Object.
 
 number
 	range

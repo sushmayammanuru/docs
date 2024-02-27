@@ -9,7 +9,7 @@ IDEs
 		Webstrome            jetbrains
 		Eclipse              Eclipse
 - -
-Online Editorse
+Online Editors
 	https://stackblitz.com/
 	https://codepen.io/
 	https://jsfiddle.net/
@@ -17,7 +17,7 @@ Online Editorse
 FAQs
 What are IDEs that you have used in your project?
 	Mostly im using visual studio code in my project and i know how to use web -
-	strome and eclipse. if you give mea a opportunity to work on that i am able
+	strome and eclipse. if you give me a opportunity to work on that i am able
 	to work on that.
 	
 What are online editors that you aware?

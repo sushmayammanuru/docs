@@ -60,6 +60,6 @@ What are empty elements ?
 			</body>
 		</html>
 		--
-		HTML is not case sensitive
-			HTML tags are not case sensitive:<p>means same as<P>
+HTML is not case sensitive
+	HTML tags are not case sensitive:<p>means same as<P>
 			

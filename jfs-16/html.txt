@@ -11,7 +11,7 @@ styles					yes 	yes
 Formating				yes		yes
 Quotations				yes		yes	
 comments				yes		yes
-colors					yes		yes	
+colors					
 links					yes		yes
 images					yes		yes
 Favicon					yes		yes	
