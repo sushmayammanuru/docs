@@ -1,0 +1,260 @@
+LITERALS
+    A constant value which can be assigned to the variable is called Literal.
+
+    Example:
+        int x = 10;
+
+        x is identifier 
+        10 is constant value or literal
+=======================================================================================================================================
+INTEGRAL LITERALS
+
+    For integral datatypes (byte, short, int, long) we can specify literal value in the following ways.
+
+    1. Decimal Literal (base 10): allowed digits are 0 to 9
+            int x = 10;
+
+    2. Octal literal (base 8): allowed digits are 0 to 7
+            int x = 010;
+    
+    3. Hexadecimal Literal (base 16): allowed digits are 0 to 9 and 'a' to 'f'
+            
+            Note: For extra digits (a to f) we can use both lowercase and uppercase characters. This is one of the very few areas 
+                  where java is not case sensitive. 
+                  The literal value should be prefixed with '0X' or '0x'
+            
+            int x = 0x10
+
+These are the only possible ways to specify literal value for integral datatypes
+
+
+Which of the following declarations are valid?
+    int x = 10; valid
+    int x = 0786; invalid 
+    int x = 0777; valid
+    int x = 0xFace; valid
+    int x = 0xBeer; invalid
+
+Programmer having choice to specify in octal, Hexadecimal or Decimal but JVM print these values in Decimal from
+
+    public class Test{
+        public static void main(String args[]){
+            int x = 10;
+            int y = 010;
+            int z = 0x10;
+
+            System.out.println(x + "..."+ y +"..."+ z);
+        }
+    }
+
+    OUTPUT: 10...10...10
+
+By default every integral literal is of 'int' type, but we can specify explicitly as long type by suffixed with 'l' or 'L'
+
+    Example:
+        int x = 10; valid
+        long l = 10l; valid
+        long l = 10L; valid
+        int x = 10l; invalid //CE: possible loss of precision found: long required: int
+        long l = 10; valid
+
+
+There is no direct way to specify byte and short literals explicitly but indirectly we can specify, whenever we are assigning 
+integral literal to the byte variable and if the value within the range of byte then compiler treats it automatically as byte 
+literal similarly with short literal as well.
+
+    Example:
+        byte b = 10; valid
+        byte b = 128; invalid
+
+        short s = 32767; valid
+        short s = 56323; invalid
+=======================================================================================================================================
+FLOATING PONT LITERALS
+
+    By default every floating literal is of 'double' type, hence we can't assign directly to float variable.
+    But we can specify floating point literal as float type by suffixed with 'f' or 'F'.
+
+        Example:
+            float f = 1233.456; //CE: possible loss precision: double required
+            float f = 123.456f; valid
+            float f = 123.435F; valid
+            double d = 1231.234, valid
+
+    We can specify explicitly floating point literal as double type by suffixed with 'd' or 'D'.
+    It is not mandatory.
+
+        Example:
+            double d = 123.345d; valid
+            float f = 123.245D; invalid
+            float f = 123.3245d; invalid
+    
+    We can specify floating point literals only in decimal and we can't specify in octal and Hexadecimal form.
+
+        Example:
+            double d = 123.456; valid
+            double d = 0123.456; valid
+            double d = 0x123.456; invalid
+    
+    We cant assign integral literal directly to floating point variables and that integral literal can be specified
+    either in decimal or octal Hexadecimal forms.
+
+        Example: 
+            double d = 0786; invalid
+            double d = 0xFAce; valid
+            double d = 0786.0; valid
+            double d = 0XFAcR; invalid
+
+    We cant assign floating point literals to integral types
+
+        Example:
+            double d = 10; //valid
+            int x = 10.0; //invalid
+
+    We can specify floating point literal even in exponential form(scientific notation)
+
+        Example:
+            double d = 1.2e3
+=======================================================================================================================================
+BOOLEAN LITERALS
+
+    The only allowed values for Boolean datatypes are 'true' and 'false'
+
+    boolean b = true;
+    boolean b = 0; //CE: incompatible type: found: int required: boolean
+    boolean b = True; //CE: cannot find symbol
+    boolean b = "true"; //CE: incompatible type
+
+    Example:
+        
+        boolean x = 0;
+        if(x) {     //CE: incompatible type: found: int required: boolean
+
+            boolean y = true
+            while(y) {
+                System.out.println("HELLO");
+            }
+        } 
+        else{
+            System.out.println("HI");
+        }
+=======================================================================================================================================
+CHAR LITERALS
+
+    We can specify char literal as single character with in single quotes
+
+        Example:
+            char ch = 'a'; valid
+            char ch = a; invalid //CE: cannot find symbol
+            char ch = "a"; invalid //CE: incompatible type found: String required: char
+            char ch = 'ab'; invalid //CE: unclosed char literal
+
+    We can specify char literal as integral literal which represents unicode value of the character and that integral
+    literal can be specified either in decimal or octal or Hexadecimal forms but allowed range is 0 to 65535.
+
+        Example:
+            char ch = 0xFace; valid
+            char ch = 0777; valid
+            char ch = 65535; valid
+            char ch = 65536; invalid
+
+    We can represent char literal in unicode representation which is nothing but '\uxxxx'(4 digit Hexadecimal number)
+
+        Example:
+            char ch = '\u0061';
+            System.out.println(ch);
+
+            OUTPUT: a
+
+    Every escape character is a valid char literal.
+
+        Example:
+            char ch = '\n'; valid
+            char ch = '\t'; valid
+            char ch = '\m'; invalid //CE: invalid escape character
+
+        ESCAPE CHARACTERS           DESCRIPTION
+                
+                \n                  New Line
+                \t                  Horizontal Tab
+                \r                  Carriage Return
+                \b                  Back Space
+                \f                  Form Freed
+                \'                  Single quote
+                \"                  Double Quote
+                \\                  Back Slash
+
+Which of the following are vaild?
+    char ch = 65536; invalid
+    char ch = 0xBeer; invalid
+    char ch = \uFace; invalid
+    char ch = '\uBeef'; valid
+    char ch = '\m'; invalid
+    char ch = '\iFace'; invalid
+=======================================================================================================================================
+STRING LITERALS
+    
+    Any sequence of characters with in double quotes is treated as String Literal
+
+    Example:
+        String s = "HELLO World";
+=======================================================================================================================================
+1.7 version enhancement with respect to literals
+=======================================================================================================================================
+BINARY LITERALS
+    
+    For integral datatypes until 1.6 version we can specify literal value in following ways:
+    
+        Decimal Form
+        Octal Form
+        Hexadecimal Form
+    
+    But from 1.7 version we can specify literal value even in binary form.
+
+    Allowed digits are 0 and 1.
+
+    Literal value should be prefixed with '0b' or '0B'
+
+        Example:
+            int x = 0b1111;
+            System.out.println(x);
+
+            OUTPUT: 15
+=======================================================================================================================================
+Use of '_' symbol in numeric literals
+
+From 1.7 version, we can use '_' symbol between digits of numeric literal
+We can use morethan one '_' symbol.
+
+    Example:
+        double d = 1233456.647; valid
+        double d = 123_3456.6_4_7; valid
+
+    The main advantage of this approach is readability of code will be improved. At the time of compilation
+    these '_' symbols will be removed automatically. Hence after compilation the above lines will become
+    double d = 1233456.647;
+
+    We can use '_' symbol only between digits, if we use it anywhere else we will get compile time error
+
+    Example:
+        double d = _1_23_456.7_8_9; invalid
+        double d = 1_23_456_.7_8_9; invalid
+        double d = 1_23_456.7_8_9_; invalid
+=======================================================================================================================================
+
+BYTE--------------->SHORT--------------->\
+                                          \
+                                           \
+                                            INT------->LONG-------->FLOAT------->DOUBLE
+                                           /
+                                          /
+CHAR------------------------------------>/
+
+
+NOTE: 8 byte long value we can assign to 4 byte float variable because both are following different memory representations internally.
+
+    Example:
+        float f = 10l;
+        System.out.println(f);
+
+        OUTPUT: 10.0

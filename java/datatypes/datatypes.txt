@@ -1,0 +1,60 @@
+In Java all variables are declared before its use.
+
+Every assignment should be checked by the compiler for compatibility.
+
+So it is also a strong typed programming language
+    - every variable, method and expression is of some type.
+    - each and every datatype is clearly defined.
+
+Java is not considered as pure OOP language.
+    - Due to primitive datatypes which are not objects.
+    - Some OOP's concept are not satisfied by Java
+
+What are the datatypes in Java?
+    - Numeric and Non Numeric
+
+What are Numeric datatypes?
+    - Further divided into two types: Integral and Floating point
+
+    - Integral datatype has byte, short, int and long
+    - Floating point datatype has float and double
+
+What are Non Numeric datatypes?
+    - Boolean and Char
+
+Except Boolean and Char datatypes, remaining datatypes are signed datatypes, because we can save both positive and negative numbers.
+
+Explain about Integral datatype?
+    - BYTE:  range is -128 to 127
+    - SHORT: range is -2^15 to (2^15 - 1)
+    - INT :  range is -2^31 to (2^31 - 1)
+    - LONG:  range is -2^63 to (2^63 - 1)
+
+    - The default value for these datatypes is 0.
+
+    Syntax:
+
+    byte a=98; //valid
+    byte a=128; //invalid and error is "incompatible types: possible lossy conversion from int to byte"
+
+Explain about Floating datatype?
+    - FLOAT: Single precision, 0.0F is default value
+
+    Syntax:
+
+    float f1= 234.5f
+
+    -DOUBLE: Double precision, 0.0d is default value
+
+    Syntax:
+    double d1=12.3
+
+Boolean: For performing logical and decision making operations.
+
+Char: In old languages like C and C++, char is based upon ASCII values.
+      -To represent these 256 characters 8 bits are enough, hencesize of char in old language is 1 byte.
+      -But java is UNICODE based and the number of UNICODE characters are >256 and <+65536, hence to represent these many characters 8 bits
+       are not enough, compulsory we should go for 16 bits, due to this the size of char in Java is 2bytes
+
+Null: Null is the default value for object reference, and it can't apply for primitive datatypes, if we are trying to assign
+      null value for primitive datatypes then we will get compile time error.

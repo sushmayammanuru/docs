@@ -1,0 +1,33 @@
+What are Identifiers?
+        -Identifiers in Java are names used for identfication.
+        -They can be class name, varaible name, method name, constant name.
+
+How many identifiers are present in below Java code snippet?
+
+    class Hello{
+        public staic void main(String[] args){
+            System.out.println("Hello World);
+        }
+    }
+
+        - There are 7 identifiers in above code they are
+        - Hello, main, String, args, System, out, println
+
+What are the rules for Identifiers in Java?
+        - It should only contain A-Z, a-z, 0-9, _, $.
+        - No space in identifiers
+        - The start should not be a number
+        - It can be of any size(length), minimal length is recommended
+        - It cant be any reserved keyword
+
+
+    employee_id             ->valid
+    employee#               ->invalid
+    123employee             ->invalid
+    EMPLOYEE$ID             ->valid
+
+
+
+What is a reserved keyword?
+        - They are predefined words and have their own function to perform.
+        
